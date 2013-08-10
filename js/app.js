@@ -46,8 +46,6 @@
                 sql: '\
                 SELECT\
                   l.*,\
-                  a.selgitus,\
-                  a.hoone_funk,\
                   w.text,\
                   w.url\
                 FROM\
@@ -68,7 +66,7 @@
                   linna_majad_2 AS l\
                 ',
                 cartocss: '#layer { polygon-fill: #f00; polygon-opacity: 0.5; line-opacity:0; }',
-                interactivity: ['aadress','foto_pikk','ehit_aasta','seisukord']
+                interactivity: ['the_geom', 'aadress','foto_pikk','ehit_aasta','seisukord']
               },
    /*         {
               sql: '\
@@ -85,24 +83,36 @@
             .addTo(map)
             .done(function(layer) {
 
+                var sql = new cartodb.SQL({ user: 'kika' })
+
                 var sl2 = layer.getSubLayer(2);
+              
                 sl2.setInteraction(true);
+              
                 sl2.on('featureClick', function(e, pos, pixel, data) {  
                   if (data.ehit_aasta == 0) data.ehit_aasta = null        
-
-                  var sql = new cartodb.SQL({ user: 'kika' })
-                    .execute("SELECT * FROM vanalinna_fotod WHERE asukoht LIKE '%{{ aadress }}%'", { aadress: data.aadress })
+              
+                  console.log(data)
+              
+                    sql.execute("SELECT * FROM vanalinna_fotod WHERE asukoht LIKE '%{{ aadress }}%'", { aadress: data.aadress })
                     .done(function(new_data) {
                       if (new_data.rows) data.fotod = new_data.rows
 
-                        sql = new cartodb.SQL({ user: 'kika' })
-                          .execute("SELECT * FROM ajaloolised_hooned_2 WHERE aadress LIKE '%{{ aadress }}%'", { aadress: data.aadress })
+                       sql.execute("SELECT * FROM ajaloolised_hooned_2 WHERE aadress LIKE '%{{ aadress }}%'", { aadress: data.aadress })
                           .done(function(new_data) {
                             if (new_data.rows) {
                               data.selgitus = new_data.rows[0].selgitus
                               data.hoone_funk = new_data.rows[0].hoone_funk
                             }
-                            $('#sidebar').html(sidebar.render({data: data}))
+
+                            sql.execute("SELECT * FROM kuressaare_wikipedia_3 WHERE ST_Intersects(kuressaare_wikipedia_3.the_geom, ST_SetSRID(ST_Point({{lat}}, {{lng}}),4326))", { lat: 0, lng: 0 })
+                               .done(function(new_data) {
+                                 console.log(new_data)
+                                 if (new_data.rows) {
+                                 }
+                                 $('#sidebar').html(sidebar.render({data: data}))
+                               })
+
                           })
   
                     })
