@@ -1,0 +1,91 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: Merriweather, Georgia, serif;
+  height: 100%;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+#map {
+  height: 100%;
+  margin-right: 500px;
+}
+#sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 500px;
+  height: 100%;
+  overflow: scroll;
+}
+article {
+  padding: 10px 40px;
+  background: white;
+}
+article a {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;  
+}
+.cartodb-infowindow {
+  display: none !important;
+}
+h1 {
+  font-size: 4.5em;
+  line-height: 1em;
+  letter-spacing: -0.05em;
+  text-align: center;
+  background: transparent url(../images/vapp.png) no-repeat center 0.5em;
+  padding-top: 2.5em;
+  margin-top: 0;
+/*  text-shadow: 2px 2px 0px #fff, 4px 4px 0px rgba(0,0,0,0.15);*/
+}
+#back {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #d9ccbe;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 0.8em;
+  opacity: 0.95;
+  border-radius:100px;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  padding-top: 0.12em;
+}
+a, a:link, a:visited, a:hover {
+  color: #998f84;
+}
+header {
+  background: #433;
+  line-height: 0px;
+}
+.image-big, .image-small  {
+  background-position: center;
+  background-size: cover; 
+}
+.image-big {
+  height: 200px;
+}
+.image-small {
+  height: 150px;
+  width: 242px;
+  display: inline-block;
+}
+h2 {
+  margin-top: 1.2em;
+}
+.old {
+  width: 100px;
+}
