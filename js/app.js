@@ -30,16 +30,6 @@
               {
                 sql: '\
                 SELECT\
-                  l.*\
-                FROM\
-                  linna_majad_2 AS l\
-                ',
-                cartocss: '#layer { polygon-fill: #c9bcad; polygon-opacity: 0.5; line-opacity:0; }',
-                interactivity: ['aadress','foto_pikk','ehit_aasta','seisukord']
-              },
-              {
-                sql: '\
-                SELECT\
                   l.*,\
                   a.selgitus,\
                   a.hoone_funk\
@@ -50,7 +40,7 @@
                  ST_Intersects(l.the_geom,a.the_geom)\
                 ',
                 cartocss: '#layer { polygon-fill:#998f84; polygon-opacity: 1; line-opacity:0; line-color: #000;}',
-                interactivity: ['aadress','foto_pikk','ehit_aasta','seisukord','selgitus','hoone_funk']
+//                interactivity: ['aadress','foto_pikk','ehit_aasta','seisukord','selgitus','hoone_funk']
               },   
               {
                 sql: '\
@@ -68,7 +58,17 @@
                  ST_Intersects(l.the_geom,w.the_geom)\
                 ',
                 cartocss: '#layer { polygon-fill:#544; polygon-opacity: 1; line-opacity:0; line-color: #000;}',
-                interactivity: ['aadress','foto_pikk','ehit_aasta','seisukord','selgitus','hoone_funk','url','text']
+//                interactivity: ['aadress','foto_pikk','ehit_aasta','seisukord','selgitus','hoone_funk','url','text']
+              },
+              {
+                sql: '\
+                SELECT\
+                  l.*\
+                FROM\
+                  linna_majad_2 AS l\
+                ',
+                cartocss: '#layer { polygon-fill: #f00; polygon-opacity: 0.5; line-opacity:0; }',
+                interactivity: ['aadress','foto_pikk','ehit_aasta','seisukord']
               },
    /*         {
               sql: '\
@@ -85,21 +85,6 @@
             .addTo(map)
             .done(function(layer) {
 
-              var sl0 = layer.getSubLayer(0);
-              sl0.setInteraction(true);
-              sl0.on('featureClick', function(e, pos, pixel, data) {  
-                if (data.ehit_aasta == 0) data.ehit_aasta = null
-                $('#sidebar').html(sidebar.render({data: data}))
-              });
-                              
-                var sl1 = layer.getSubLayer(1);
-                sl1.setInteraction(true);
-                sl1.on('featureClick', function(e, pos, pixel, data, idx) {              
-                 if (data.ehit_aasta == 0) data.ehit_aasta = null     
-                 $('#sidebar').html(sidebar.render({data: data}))
-                                 
-                });
-                
                 var sl2 = layer.getSubLayer(2);
                 sl2.setInteraction(true);
                 sl2.on('featureClick', function(e, pos, pixel, data) {  
@@ -109,10 +94,17 @@
                     .execute("SELECT * FROM vanalinna_fotod WHERE asukoht LIKE '%{{ aadress }}%'", { aadress: data.aadress })
                     .done(function(new_data) {
                       if (new_data.rows) data.fotod = new_data.rows
-                      $('#sidebar').html(sidebar.render({data: data}))
-                    })
-                    .error(function(errors) {
-                        $('#sidebar').html(sidebar.render({data: data}))
+
+                        sql = new cartodb.SQL({ user: 'kika' })
+                          .execute("SELECT * FROM ajaloolised_hooned_2 WHERE aadress LIKE '%{{ aadress }}%'", { aadress: data.aadress })
+                          .done(function(new_data) {
+                            if (new_data.rows) {
+                              data.selgitus = new_data.rows[0].selgitus
+                              data.hoone_funk = new_data.rows[0].hoone_funk
+                            }
+                            $('#sidebar').html(sidebar.render({data: data}))
+                          })
+  
                     })
                     
                 });
