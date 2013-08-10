@@ -65,7 +65,7 @@
                 FROM\
                   linna_majad_2 AS l\
                 ',
-                cartocss: '#layer { polygon-fill: #f00; polygon-opacity: 0.5; line-opacity:0; }',
+                cartocss: '#layer { polygon-fill: #998f84; polygon-opacity: 0.2; line-opacity:0; }',
                 interactivity: ['cartodb_id', 'aadress','foto_pikk','ehit_aasta','seisukord']
               },
    /*         {
@@ -95,12 +95,12 @@
               
                     sql.execute("SELECT * FROM vanalinna_fotod WHERE asukoht LIKE '%{{ aadress }}%'", { aadress: data.aadress })
                     .done(function(new_data) {
+                      console.log(new_data)
                       if (new_data.rows) {
                         data.fotod = new_data.rows
                       }
                        sql.execute("SELECT * FROM ajaloolised_hooned_2 WHERE aadress LIKE '%{{ aadress }}%'", { aadress: data.aadress })
                           .done(function(new_data) {
-                            console.log(new_data)
                             if (new_data.rows[0]) {
                               data.selgitus = new_data.rows[0].selgitus
                               data.hoone_funk = new_data.rows[0].hoone_funk
