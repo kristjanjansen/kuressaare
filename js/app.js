@@ -97,7 +97,10 @@
                     .done(function(new_data) {
                       console.log(new_data)
                       if (new_data.rows) {
-                        data.fotod = new_data.rows
+                        data.fotod = new_data.rows.map(function(item) {
+                          item.selgitus = item.selgitus.replace(/Ã¤/g, 'ä').replace(/Ãµ/g, 'õ').replace(/Ã¼/g, 'ü').replace(/Ã¾/g, 'sh')
+                          return item
+                        })
                       }
                        sql.execute("SELECT * FROM ajaloolised_hooned_2 WHERE aadress LIKE '%{{ aadress }}%'", { aadress: data.aadress })
                           .done(function(new_data) {
