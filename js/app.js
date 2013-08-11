@@ -1,15 +1,19 @@
-  function main() {
+var intro = new cdb.core.Template({
+   template: $('#template_intro').html(),
+   type: 'mustache'
+ })
+ 
+var sidebar = new cdb.core.Template({
+   template: $('#template_sidebar').html(),
+   type: 'mustache'
+})
 
-    var intro = new cdb.core.Template({
-      template: $('#template_intro').html(),
-      type: 'mustache'
-    })
-    
-    var sidebar = new cdb.core.Template({
-      template: $('#template_sidebar').html(),
-      type: 'mustache'
-    })
-    
+var sql = new cartodb.SQL({ user: 'kika' })
+
+
+
+function main() {
+   
     $('#sidebar').html(intro.render())
 
         var map = L.map('map', { 
@@ -22,7 +26,7 @@
         L.tileLayer('http://a.tiles.mapbox.com/v3/examples.map-zr0njcqy/{z}/{x}/{y}.png', {
           attribution: 'Mapbox'
         }).addTo(map);
-//#998f84
+
         cartodb.createLayer(map, {
               user_name: 'kika',
               type: 'cartodb',
@@ -49,43 +53,10 @@
             },{cartodb_logo: false})
             .addTo(map)
             .done(function(layer) {
-
-                var sql = new cartodb.SQL({ user: 'kika' })
-
                 var sl = layer.getSubLayer(0);
-              
-                sl.setInteraction(true);
-              
+                sl.setInteraction(true);             
                 sl.on('featureClick', function(e, pos, pixel, data) {  
-                  if (data.ehit_aasta == 0) data.ehit_aasta = null                      
-                    sql.execute("SELECT * FROM vanalinna_fotod WHERE asukoht LIKE '%{{ aadress }}%'", { aadress: data.aadress })
-                    .done(function(new_data) {
-                      if (new_data.rows) {
-                        data.fotod = new_data.rows.map(function(item) {
-                          item.selgitus = item.selgitus ? item.selgitus.replace(/Ã¤/g, 'ä').replace(/Ãµ/g, 'õ').replace(/Ã¼/g, 'ü').replace(/Ã¾/g, 'sh') : null
-                          return item
-                        })
-                      }
-                       sql.execute("SELECT * FROM ajaloolised_hooned_2 WHERE aadress LIKE '%{{ aadress }}%'", { aadress: data.aadress })
-                          .done(function(new_data) {
-                            if (new_data.rows[0]) {
-                              data.selgitus = new_data.rows[0].selgitus
-                              data.hoone_funk = new_data.rows[0].hoone_funk
-                            }
-
-                            sql.execute("SELECT l.cartodb_id, w.url, w.text FROM linna_majad AS l, kuressaare_wikipedia_3 AS w WHERE l.cartodb_id = {{ id }} AND ST_Intersects(l.the_geom, w.the_geom)", { id: data.cartodb_id })
-                               .done(function(new_data) {
-                                 if (new_data.rows[0]) {
-                                   data.url = new_data.rows[0].url
-                                   data.text = new_data.rows[0].text                                    
-                                 }
-                                 $('#sidebar').html(sidebar.render({data: data}))
-                               })
-
-                          })
-  
-                    })
-                    
+                  getSidebar(data)
                 });
 
 /*                var sl3 = layer.getSubLayer(3);
@@ -96,6 +67,40 @@
  */                                              
             });
 
-          }
+}
+
+
+function getSidebar(data) {
+  
+  if (data.ehit_aasta == 0) data.ehit_aasta = null                      
+    sql.execute("SELECT * FROM vanalinna_fotod WHERE asukoht LIKE '%{{ aadress }}%'", { aadress: data.aadress })
+    .done(function(new_data) {
+      if (new_data.rows) {
+        data.fotod = new_data.rows.map(function(item) {
+          item.selgitus = item.selgitus ? item.selgitus.replace(/Ã¶/g, 'ö').replace(/Ã¤/g, 'ä').replace(/Ãµ/g, 'õ').replace(/Ã¼/g, 'ü').replace(/Ã¾/g, 'sh') : null
+          return item
+        })
+      }
+       sql.execute("SELECT * FROM ajaloolised_hooned_2 WHERE aadress LIKE '%{{ aadress }}%'", { aadress: data.aadress })
+          .done(function(new_data) {
+            if (new_data.rows[0]) {
+              data.selgitus = new_data.rows[0].selgitus
+              data.hoone_funk = new_data.rows[0].hoone_funk
+            }
+
+            sql.execute("SELECT l.cartodb_id, w.url, w.text FROM linna_majad AS l, kuressaare_wikipedia_3 AS w WHERE l.cartodb_id = {{ id }} AND ST_Intersects(l.the_geom, w.the_geom)", { id: data.cartodb_id })
+               .done(function(new_data) {
+                 if (new_data.rows[0]) {
+                   data.url = new_data.rows[0].url
+                   data.text = new_data.rows[0].text                                    
+                 }
+                 $('#sidebar').html(sidebar.render({data: data}))
+               })
+
+          })
+
+    })
+}
+
 
 window.onload = main;
