@@ -29,7 +29,7 @@
     <script type="sidebar/html" id="template_intro">
       <article>
         <h1>Kuressaare majad</h1>
-        <p>Kuressaare ajaloolisi hooneid kaardistava rakenduse prototüüp, sündinud koostöös <a href="http://www.kuressaare.ee/">Kuressaare Linnavalitsuse</a>, <a href="http://www.kuressaare.ee/uus/10723/">Muinsuskaitseameti</a> ning <a href="http://opendata.ee">Open Data Estonia</a>ga.</p>
+        <p style="text-align: center">Kuressaare ajaloolisi hooneid kaardistava rakenduse prototüüp, sündinud koostöös <a href="http://www.kuressaare.ee/">Kuressaare Linnavalitsuse</a>, <a href="http://www.kuressaare.ee/uus/10723/">Muinsuskaitseameti</a> ning <a href="http://opendata.ee">Open Data Estonia</a>ga.</p>
       </article>
     </script>
     
@@ -47,7 +47,7 @@
           {{#data.asukoht}}{{data.asukoht}}{{/data.asukoht}}
           </h2>
           
-          {{#data.hoone_funk}}Funktsioon: {{data.hoone_funk}}<br />{{/data.hoone_funk}}
+          {{#data.hoone_funk}}{{data.hoone_funk}}<br />{{/data.hoone_funk}}
           {{#data.ehit_aasta}}Ehitatud {{data.ehit_aasta}}. aastal<br />{{/data.ehit_aasta}}
       
           {{#data.fotod}}<p>{{selgitus}}</p>{{/data.fotod}}
@@ -58,7 +58,7 @@
 
           {{#data.url}}
           <h4>Wikipedia:</h4>
-          <p><a href="{{data.url}}">{{data.url}}</a></p>
+          <p><a href="{{data.url}}" target="_blank">{{data.url}}</a></p>
           <p>{{{data.text}}}</p>
           {{/data.url}}
           
