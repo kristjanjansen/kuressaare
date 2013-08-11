@@ -36,7 +36,7 @@ function main() {
                 SELECT\
                   l.*\
                 FROM\
-                  linna_majad_2 AS l\
+                  buildings AS l\
                 ',
                 cartocss: '#layer { polygon-fill: #998f84; polygon-opacity: 0.9; line-opacity:0; }',
                 interactivity: ['cartodb_id', 'aadress','foto_pikk','ehit_aasta','seisukord']
@@ -46,7 +46,7 @@ function main() {
               SELECT\
                 w.*\
               FROM\
-                kuressaare_wikipedia_3 AS w\
+                wikipedia AS w\
               ',
               cartocss: '#layer { marker-width: 18; marker-file: url("http://upload.wikimedia.org/wikipedia/commons/8/8f/W-circle.svg"); }',              }              
               ]
@@ -73,7 +73,7 @@ function main() {
 function getSidebar(data) {
   
   if (data.ehit_aasta == 0) data.ehit_aasta = null                      
-    sql.execute("SELECT * FROM vanalinna_fotod WHERE asukoht LIKE '%{{ aadress }}%'", { aadress: data.aadress })
+    sql.execute("SELECT * FROM historic_photos WHERE asukoht LIKE '%{{ aadress }}%'", { aadress: data.aadress })
     .done(function(new_data) {
       if (new_data.rows) {
         data.fotod = new_data.rows.map(function(item) {
@@ -81,14 +81,14 @@ function getSidebar(data) {
           return item
         })
       }
-       sql.execute("SELECT * FROM ajaloolised_hooned_2 WHERE aadress LIKE '%{{ aadress }}%'", { aadress: data.aadress })
+       sql.execute("SELECT * FROM historic_buildings WHERE aadress LIKE '%{{ aadress }}%'", { aadress: data.aadress })
           .done(function(new_data) {
             if (new_data.rows[0]) {
               data.selgitus = new_data.rows[0].selgitus
               data.hoone_funk = new_data.rows[0].hoone_funk
             }
 
-            sql.execute("SELECT l.cartodb_id, w.url, w.text FROM linna_majad AS l, kuressaare_wikipedia_3 AS w WHERE l.cartodb_id = {{ id }} AND ST_Intersects(l.the_geom, w.the_geom)", { id: data.cartodb_id })
+            sql.execute("SELECT l.cartodb_id, w.url, w.text FROM buildings AS l, wikipedia AS w WHERE l.cartodb_id = {{ id }} AND ST_Intersects(l.the_geom, w.the_geom)", { id: data.cartodb_id })
                .done(function(new_data) {
                  if (new_data.rows[0]) {
                    data.url = new_data.rows[0].url
