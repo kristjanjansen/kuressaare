@@ -30,7 +30,7 @@ function main() {
     }).addTo(map);
 
     cartodb.createLayer(map, {
-      user_name: 'kika',
+      user_name: 'kuressaare',
       type: 'cartodb',
       sublayers: [{
         sql: 'SELECT * FROM buildings',
