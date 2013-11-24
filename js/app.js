@@ -9,7 +9,7 @@ var sidebar = new cdb.core.Template({
 })
 
 var sql = new cartodb.SQL({
-  user: 'kika'
+  user: 'kristjanjansen'
 })
 
 
@@ -30,7 +30,7 @@ function main() {
     }).addTo(map);
 
     cartodb.createLayer(map, {
-      user_name: 'kuressaare',
+      user_name: 'kristjanjansen',
       type: 'cartodb',
       sublayers: [{
         sql: 'SELECT * FROM buildings',
