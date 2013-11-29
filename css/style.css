@@ -92,3 +92,6 @@ h2 {
 .leaflet-popup-content {
   margin: 5px 8px;
 }
+.leaflet-popup-content-wrapper {
+  border-radius: 6px !important;
+}

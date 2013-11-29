@@ -50,9 +50,9 @@ function main() {
               layer.on('featureOver', function(e, pos, latlng, data) {
 
                 popup = L.popup({
+                  minWidth: 20,
                   closeButton:false,
-                  autoPan: false,
-                  zoomAnimation: false,
+                  zoomAnimation: false
                   })
                     .setLatLng(pos)
                     .setContent(data.aadress)
