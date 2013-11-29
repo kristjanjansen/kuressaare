@@ -43,10 +43,22 @@ function main() {
              var sublayer = layer.getSubLayer(0);
               
              layer.on('featureClick', function(e, pos, latlng, data) {
-               console.log(data)
+                       
                getSidebar(data.cartodb_id);
              });
              
+              layer.on('featureOver', function(e, pos, latlng, data) {
+
+                popup = L.popup({
+                  closeButton:false,
+                  autoPan: false,
+                  zoomAnimation: false,
+                  })
+                    .setLatLng(pos)
+                    .setContent(data.aadress)
+                    .openOn(map);
+
+              });
       
              layer.on('error', function(err) {
                console.log('error: ' + err);
