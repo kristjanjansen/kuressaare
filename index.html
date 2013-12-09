@@ -44,7 +44,7 @@
           {{#data.fotod}}<div class="image-small" style="background-image: url('{{foto}}')"></div>{{/data.fotod}}
         </header>
         <article>
-        <a href="" id="back" onclick="$('#sidebar').html(intro.render())">×</a>
+        <a href="" id="back" onclick="$('#sidebar').html(intro.render());map.setZoom(16)">×</a>
           <h2>
           {{#data.aadress}}{{data.aadress}}{{/data.aadress}}
           {{#data.asukoht}}{{data.asukoht}}{{/data.asukoht}}

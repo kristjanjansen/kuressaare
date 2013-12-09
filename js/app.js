@@ -12,18 +12,16 @@ var sql = new cartodb.SQL({
   user: 'kristjanjansen'
 })
 
-
+var map = L.map('map', {
+  zoomControl: true,
+  center: [58.2521, 22.4854],
+  zoom: 16,
+  attributionControl: false
+});
 
 function main() {
 
-    $('#sidebar').html(intro.render())
-
-    var map = L.map('map', {
-      zoomControl: true,
-      center: [58.2521, 22.4854],
-      zoom: 16,
-      attributionControl: false
-    });
+    $('#sidebar').html(intro.render());
 
     L.tileLayer('http://a.tiles.mapbox.com/v3/examples.map-zr0njcqy/{z}/{x}/{y}.png', {
       attribution: 'Mapbox'
@@ -43,7 +41,9 @@ function main() {
              var sublayer = layer.getSubLayer(0);
               
              layer.on('featureClick', function(e, pos, latlng, data) {
-                       
+               map.setZoom(20);
+               map.panTo(pos); 
+                                   
                getSidebar(data.cartodb_id);
              });
              
@@ -52,12 +52,11 @@ function main() {
                 popup = L.popup({
                   minWidth: 20,
                   closeButton:false,
-                  zoomAnimation: false
+                  zoomAnimation: false,
                   })
                     .setLatLng(pos)
                     .setContent(data.aadress)
                     .openOn(map);
-
               });
       
              layer.on('error', function(err) {
@@ -72,7 +71,7 @@ function main() {
     
     
     function getSidebar(cartodb_id) {
-
+            
       sql.execute("SELECT * FROM buildings WHERE cartodb_id = {{ cartodb_id }}", {
         cartodb_id: cartodb_id
       }).done(function(data) {
