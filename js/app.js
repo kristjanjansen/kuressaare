@@ -103,9 +103,31 @@ function main() {
               data.url = new_data.rows[0].url
               data.text = new_data.rows[0].text
             }
+            
+            
+            sql.execute("SELECT * FROM osiliana WHERE address LIKE '%{{ address }}%'", {
+              address: data.aadress
+            }).done(function(new_data) {
+              
+              if (new_data.rows[0]) {
+                data.osiliana_story = new_data.rows[0].story
+                data.osiliana_url = new_data.rows[0].url
+              }
+              
+              $('#sidebar').html(sidebar.render({
+                data: data
+              }))
+              console.log(data)
+            })
+            
+            /*
             $('#sidebar').html(sidebar.render({
               data: data
             }))
+            */
+            
+            
+            
           })
 
         })
