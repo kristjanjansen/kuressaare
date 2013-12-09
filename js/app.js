@@ -41,7 +41,7 @@ function main() {
              var sublayer = layer.getSubLayer(0);
               
              layer.on('featureClick', function(e, pos, latlng, data) {
-               map.setZoom(20);
+               map.setZoom(19);
                map.panTo(pos); 
                                    
                getSidebar(data.cartodb_id);
