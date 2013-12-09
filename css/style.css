@@ -21,6 +21,11 @@ html, body {
   height: 100%;
   overflow: scroll;
 }
+footer {
+  font-family: Lato;
+  opacity: 0.75em;
+  text-align: center;
+}
 article {
   padding: 10px 40px;
   background: white;
@@ -33,6 +38,13 @@ article a {
   -moz-hyphens: auto;
   hyphens: auto;  
 }
+.intro {
+  text-align: center;
+}
+.help {
+  background: transparent url(../images/sorm.png) no-repeat center 1em;
+  padding-top: 4em;  
+}
 .cartodb-infowindow {
   display: none !important;
 }
@@ -40,10 +52,10 @@ h1 {
   font-size: 4.5em;
   line-height: 1em;
   letter-spacing: -0.05em;
-  text-align: center;
   background: transparent url(../images/vapp.png) no-repeat center 0.5em;
   padding-top: 2.5em;
   margin-top: 0;
+  margin-bottom: 0;
 /*  text-shadow: 2px 2px 0px #fff, 4px 4px 0px rgba(0,0,0,0.15);*/
 }
 #back {
@@ -94,4 +106,20 @@ h2 {
 }
 .leaflet-popup-content-wrapper {
   border-radius: 6px !important;
+}
+input {
+  font-size: 1em;
+  padding: 5px;
+  font-family: Merriweather, Georgia, serif;
+}
+input[type=text] {
+  border: 1px solid #444;
+  border-radius: 5px;  
+}
+input[type=submit] {
+  border: none;
+  background: #998f84;
+  padding: 5px 12px;
+  color: white;
+  border-radius: 5px;
 }
