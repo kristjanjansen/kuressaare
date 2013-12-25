@@ -12,13 +12,16 @@ function main() {
     function popUp(f,l) {
       
       l.on('click', function() {
+        console.log(f)
+        
+        // map.setZoom(19);
+        // map.panTo(pos); 
+        
         $('#sidebar').html(Mustache.render($('#template_sidebar').html(), f.properties));
         console.log(f)
       })
       
-      l.on('mouseover', function() {
-        l.bindPopup((Mustache.render($('#template_popup').html(), f.properties)));
-      })
+      
 
       /*
         var out = [];
@@ -39,7 +42,7 @@ function main() {
     }).addTo(map);
 
 
-    var master = new L.GeoJSON.AJAX('../data/in/geojson/master.geojson', {onEachFeature: popUp,
+    var master = new L.GeoJSON.AJAX('../data/out/geojson/master.geojson', {onEachFeature: popUp,
          style: {
            color: '#040',
            weight: 1
@@ -47,19 +50,19 @@ function main() {
        })
        .addTo(map)
 /*       
-    var historic_buildings = new L.GeoJSON.AJAX('../data/in/geojson/historic_buildings.geojson', {
+    var historic_buildings = new L.GeoJSON.AJAX('../data/out/geojson/historic_buildings.geojson', {
       style: {
         color: '#004',
         weight: 1
       }
       })
       
-    var historic_photos = new L.GeoJSON.AJAX('../data/in/geojson/historic_photos.geojson', {
+    var historic_photos = new L.GeoJSON.AJAX('../data/out/geojson/historic_photos.geojson', {
       style: {
       }
     })
         
-    var streets = new L.GeoJSON.AJAX('../data/in/geojson/streets.geojson', {
+    var streets = new L.GeoJSON.AJAX('../data/out/geojson/streets.geojson', {
       style: {
         weight: 12,
         opacity: 0.1
