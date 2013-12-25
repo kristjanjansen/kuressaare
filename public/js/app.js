@@ -7,30 +7,43 @@ var map = L.map('map', {
   attributionControl: false
 });
 
+var currLayer = {}
+
 function main() {
 
     function popUp(f,l) {
       
-      l.on('click', function() {
-        console.log(f)
+      l.on('click', function(e) {
+        console.log(e)
         
-        // map.setZoom(19);
-        // map.panTo(pos); 
+        if (currLayer) master.resetStyle(currLayer);
+        
+        e.layer.setStyle({
+            weight: 3
+          });
+        
+        currLayer = e.layer
+        
+        map.panTo([f.latlon.coordinates[1],f.latlon.coordinates[0]]); 
+        map.setZoom(19);
         
         $('#sidebar').html(Mustache.render($('#template_sidebar').html(), f.properties));
-        console.log(f)
+        //console.log(f)
       })
       
-      
-
       /*
-        var out = [];
-        if (f.properties){
-            for(key in f.properties){
-                out.push(key+": "+f.properties[key]);
-            }
-            l.bindPopup(out.join("<br />"));
-        }
+      
+      l.on('mouseover', function() {
+        popup = L.popup({
+          minWidth: 20,
+          closeButton:false,
+          zoomAnimation: false,
+          })
+            .setLatLng([f.latlon.coordinates[1],f.latlon.coordinates[0]])
+            .setContent(f.properties.address)
+            .openOn(map);   
+      });
+      
       */
             
     }
@@ -44,8 +57,9 @@ function main() {
 
     var master = new L.GeoJSON.AJAX('../data/out/geojson/master.geojson', {onEachFeature: popUp,
          style: {
-           color: '#040',
-           weight: 1
+           color: '#433',
+           opacity: 1,
+           weight: 0
          }
        })
        .addTo(map)

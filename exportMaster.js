@@ -15,7 +15,7 @@ db.spatialite(function(err) {
 
     writer.pipe(fs.createWriteStream('./data/out/geojson/master.geojson'))
     
-    db.each("SELECT *, AsGeoJSON(Geometry) AS the_geom FROM buildings", function(err, row) {
+    db.each("SELECT *, AsGeoJSON(Geometry) AS the_geom, AsGeoJSON(Centroid(Geometry)) AS latlon FROM buildings", function(err, row) {
       if (err) console.log(err)
      
       var f = {}
@@ -31,6 +31,7 @@ db.spatialite(function(err) {
       f.properties.photo = encodeURI(row.foto_pikk)
       
       f.geometry = JSON.parse(row.the_geom)
+      f.latlon = JSON.parse(row.latlon)
       
       db.all("SELECT * FROM historic_buildings WHERE aadress LIKE '%" + f.properties.address + "%' LIMIT 1", function(err, row) {
         if (err) console.log(err)
