@@ -1,4 +1,6 @@
 .DS_Store
-data
+data/in
+data/out/xsl
+data/out/shp
 public/vendor
 node_modules

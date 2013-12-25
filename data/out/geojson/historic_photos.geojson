@@ -1,0 +1,949 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"address":"Allee 1","year":""},"geometry":{"type":"Point","coordinates":[22.48298957050724,58.2484886010816]}}
+,
+{"type":"Feature","properties":{"address":"Allee 1","year":"19. saj lõpp"},"geometry":{"type":"Point","coordinates":[22.48275987319556,58.24821599037223]}}
+,
+{"type":"Feature","properties":{"address":"Allee 1","year":"1905-10"},"geometry":{"type":"Point","coordinates":[22.48219237791073,58.24881863595072]}}
+,
+{"type":"Feature","properties":{"address":"Allee 1","year":"1906"},"geometry":{"type":"Point","coordinates":[22.48320707997843,58.24873640945643]}}
+,
+{"type":"Feature","properties":{"address":"Allee 1","year":"1930. aastad"},"geometry":{"type":"Point","coordinates":[22.4831496020648,58.24862281446662]}}
+,
+{"type":"Feature","properties":{"address":"Allee 8a","year":"1960"},"geometry":{"type":"Point","coordinates":[22.48333638447038,58.24679790512808]}}
+,
+{"type":"Feature","properties":{"address":"Suuresilla","year":"1811"},"geometry":{"type":"Point","coordinates":[22.47501669009722,58.26426287894303]}}
+,
+{"type":"Feature","properties":{"address":"Suuresilla","year":"1811"},"geometry":{"type":"Point","coordinates":[22.47524341908209,58.26436300253755]}}
+,
+{"type":"Feature","properties":{"address":"Garnisoni 16","year":""},"geometry":{"type":"Point","coordinates":[22.49010061197991,58.25538773754582]}}
+,
+{"type":"Feature","properties":{"address":"Kalda pst","year":""},"geometry":{"type":"Point","coordinates":[22.47739506354917,58.24559227757802]}}
+,
+{"type":"Feature","properties":{"address":"Kalda pst","year":"1930 lõpp"},"geometry":{"type":"Point","coordinates":[22.4764368247444,58.24585780436986]}}
+,
+{"type":"Feature","properties":{"address":"Kalda pst","year":"1910 või 1920"},"geometry":{"type":"Point","coordinates":[22.47526159457165,58.24558967581908]}}
+,
+{"type":"Feature","properties":{"address":"Kalda pst","year":""},"geometry":{"type":"Point","coordinates":[22.48018668840909,58.24476914197019]}}
+,
+{"type":"Feature","properties":{"address":"Kalda pst","year":""},"geometry":{"type":"Point","coordinates":[22.47789034054096,58.24563964559019]}}
+,
+{"type":"Feature","properties":{"address":"Kalda pst","year":""},"geometry":{"type":"Point","coordinates":[22.47660871812384,58.24828436814954]}}
+,
+{"type":"Feature","properties":{"address":"Kalda pst","year":"1915-1920"},"geometry":{"type":"Point","coordinates":[22.47577877619653,58.24638855349511]}}
+,
+{"type":"Feature","properties":{"address":"Kalda pst","year":""},"geometry":{"type":"Point","coordinates":[22.47561311360009,58.24629714498944]}}
+,
+{"type":"Feature","properties":{"address":"Kudjape","year":"1908"},"geometry":{"type":"Point","coordinates":[22.52023538077451,58.26506774424324]}}
+,
+{"type":"Feature","properties":{"address":"Kudjape","year":"1908"},"geometry":{"type":"Point","coordinates":[22.52039853020225,58.26507922202237]}}
+,
+{"type":"Feature","properties":{"address":"Kauba tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48385679562304,58.25303014120586]}}
+,
+{"type":"Feature","properties":{"address":"Turu tänav","year":"1912"},"geometry":{"type":"Point","coordinates":[22.48397046261474,58.25285185132636]}}
+,
+{"type":"Feature","properties":{"address":"Turu tänav","year":"1968"},"geometry":{"type":"Point","coordinates":[22.48400814503232,58.25289142291966]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 1, Kauba 2","year":"1930"},"geometry":{"type":"Point","coordinates":[22.48592276866303,58.25294017185493]}}
+,
+{"type":"Feature","properties":{"address":"Kauba 9, 11","year":""},"geometry":{"type":"Point","coordinates":[22.48355231329387,58.25334907384693]}}
+,
+{"type":"Feature","properties":{"address":"Kauba 11","year":"1965"},"geometry":{"type":"Point","coordinates":[22.48315848886459,58.25373800004116]}}
+,
+{"type":"Feature","properties":{"address":"Kauba 13","year":"1968"},"geometry":{"type":"Point","coordinates":[22.48292974875234,58.25402110701909]}}
+,
+{"type":"Feature","properties":{"address":"Kauba 14","year":"1930-ndad"},"geometry":{"type":"Point","coordinates":[22.48246394996358,58.25435017724933]}}
+,
+{"type":"Feature","properties":{"address":"Kauba 17","year":"1965"},"geometry":{"type":"Point","coordinates":[22.48191839558223,58.25515757086753]}}
+,
+{"type":"Feature","properties":{"address":"Kauba tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48303662116506,58.2538072071815]}}
+,
+{"type":"Feature","properties":{"address":"Kauba tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48341260307818,58.2533929184258]}}
+,
+{"type":"Feature","properties":{"address":"Kauba 16","year":""},"geometry":{"type":"Point","coordinates":[22.4824296439513,58.25439798511732]}}
+,
+{"type":"Feature","properties":{"address":"Kauba tänav, Kohtu 1","year":"30. ndad"},"geometry":{"type":"Point","coordinates":[22.48422474329764,58.25225526806369]}}
+,
+{"type":"Feature","properties":{"address":"Kauba tänav","year":"1902-10"},"geometry":{"type":"Point","coordinates":[22.48366863935878,58.25312650360897]}}
+,
+{"type":"Feature","properties":{"address":"Kauba tänav","year":"1968"},"geometry":{"type":"Point","coordinates":[22.48343880423895,58.25340001732351]}}
+,
+{"type":"Feature","properties":{"address":"Kesklinn","year":""},"geometry":{"type":"Point","coordinates":[22.48742151888125,58.25316878213995]}}
+,
+{"type":"Feature","properties":{"address":"Keskväljak","year":""},"geometry":{"type":"Point","coordinates":[22.48500705660326,58.25257237723815]}}
+,
+{"type":"Feature","properties":{"address":"Keskväljak","year":""},"geometry":{"type":"Point","coordinates":[22.48575464323542,58.2532232065272]}}
+,
+{"type":"Feature","properties":{"address":"Keskväljak","year":""},"geometry":{"type":"Point","coordinates":[22.48471874263243,58.25269110175906]}}
+,
+{"type":"Feature","properties":{"address":"Keskväljak","year":""},"geometry":{"type":"Point","coordinates":[22.4848722036893,58.25222026517668]}}
+,
+{"type":"Feature","properties":{"address":"Keskväljak","year":""},"geometry":{"type":"Point","coordinates":[22.48623613345908,58.25319141071236]}}
+,
+{"type":"Feature","properties":{"address":"Keskväljak","year":"20. saj algus"},"geometry":{"type":"Point","coordinates":[22.48475935816373,58.25262691353044]}}
+,
+{"type":"Feature","properties":{"address":"Keskväljak","year":"30. ndad"},"geometry":{"type":"Point","coordinates":[22.48468317377352,58.25284956358163]}}
+,
+{"type":"Feature","properties":{"address":"Keskväljak","year":""},"geometry":{"type":"Point","coordinates":[22.48537203708891,58.25289130020102]}}
+,
+{"type":"Feature","properties":{"address":"Keskväljak","year":"1908"},"geometry":{"type":"Point","coordinates":[22.48520324194743,58.2528717253045]}}
+,
+{"type":"Feature","properties":{"address":"Keskväljak","year":"1930"},"geometry":{"type":"Point","coordinates":[22.48522264027428,58.25305048164208]}}
+,
+{"type":"Feature","properties":{"address":"Keskväljak","year":"1924"},"geometry":{"type":"Point","coordinates":[22.48564433728577,58.2532217636439]}}
+,
+{"type":"Feature","properties":{"address":"Keskväljak","year":"1920"},"geometry":{"type":"Point","coordinates":[22.4847407544265,58.25265264446171]}}
+,
+{"type":"Feature","properties":{"address":"Keskväljak","year":"1908"},"geometry":{"type":"Point","coordinates":[22.48490762237822,58.25276353155675]}}
+,
+{"type":"Feature","properties":{"address":"Keskväljak","year":"1924"},"geometry":{"type":"Point","coordinates":[22.4853158769639,58.25302640140409]}}
+,
+{"type":"Feature","properties":{"address":"Kitsas 3","year":"1968"},"geometry":{"type":"Point","coordinates":[22.48533788571309,58.25191923692575]}}
+,
+{"type":"Feature","properties":{"address":"Kohtu 1","year":""},"geometry":{"type":"Point","coordinates":[22.48422734554721,58.25229448908194]}}
+,
+{"type":"Feature","properties":{"address":"Kohtu 1","year":""},"geometry":{"type":"Point","coordinates":[22.48464356974657,58.25202824522796]}}
+,
+{"type":"Feature","properties":{"address":"Kohtu 6","year":"1965"},"geometry":{"type":"Point","coordinates":[22.48331412198565,58.25427416793751]}}
+,
+{"type":"Feature","properties":{"address":"Kohtu 15","year":"1965"},"geometry":{"type":"Point","coordinates":[22.48201500400346,58.25679059583124]}}
+,
+{"type":"Feature","properties":{"address":"Kohtu 17","year":"1971"},"geometry":{"type":"Point","coordinates":[22.48192972983047,58.25718496864089]}}
+,
+{"type":"Feature","properties":{"address":"Kohtu 22","year":"1965"},"geometry":{"type":"Point","coordinates":[22.48299536142225,58.2565178920781]}}
+,
+{"type":"Feature","properties":{"address":"Kohtu 22","year":"1971"},"geometry":{"type":"Point","coordinates":[22.4819284875439,58.2567883070896]}}
+,
+{"type":"Feature","properties":{"address":"Kohtu 38","year":"1962"},"geometry":{"type":"Point","coordinates":[22.48368481567978,58.26008126913046]}}
+,
+{"type":"Feature","properties":{"address":"Kohtu - Komandandi 1","year":"1930"},"geometry":{"type":"Point","coordinates":[22.48315951073972,58.25452572618802]}}
+,
+{"type":"Feature","properties":{"address":"Kohtu - Komandandi 1","year":"1905"},"geometry":{"type":"Point","coordinates":[22.48315193593405,58.25455411736724]}}
+,
+{"type":"Feature","properties":{"address":"Kohtu - Komandandi 1","year":""},"geometry":{"type":"Point","coordinates":[22.48342377902529,58.25414437651428]}}
+,
+{"type":"Feature","properties":{"address":"Kohtu - Komandandi 1","year":""},"geometry":{"type":"Point","coordinates":[22.48339819410638,58.25418511838072]}}
+,
+{"type":"Feature","properties":{"address":"Komandandi 5","year":""},"geometry":{"type":"Point","coordinates":[22.48522981396523,58.25449755433923]}}
+,
+{"type":"Feature","properties":{"address":"Komandandi 9","year":""},"geometry":{"type":"Point","coordinates":[22.48586643740198,58.25456760322028]}}
+,
+{"type":"Feature","properties":{"address":"Komandandi 9","year":"1968"},"geometry":{"type":"Point","coordinates":[22.48609257826697,58.25463060796922]}}
+,
+{"type":"Feature","properties":{"address":"Komandandi 9","year":"1968"},"geometry":{"type":"Point","coordinates":[22.48663254662128,58.25463870732068]}}
+,
+{"type":"Feature","properties":{"address":"Kopli 4","year":"1968"},"geometry":{"type":"Point","coordinates":[22.4797530473984,58.2565235909959]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48513833574596,58.25242282589249]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia 3","year":""},"geometry":{"type":"Point","coordinates":[22.48360235059516,58.25207447700503]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia 3, 5, 7","year":""},"geometry":{"type":"Point","coordinates":[22.48297708846162,58.25205529497776]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia 3","year":""},"geometry":{"type":"Point","coordinates":[22.48323534762012,58.25218402793614]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia 5","year":""},"geometry":{"type":"Point","coordinates":[22.48209210796171,58.2517934316555]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia 7","year":"1969"},"geometry":{"type":"Point","coordinates":[22.48219395654003,58.25171590385027]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia 8","year":"1905-10"},"geometry":{"type":"Point","coordinates":[22.48241134776883,58.25183409866509]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia 8","year":"1910"},"geometry":{"type":"Point","coordinates":[22.48204450703933,58.25164375466423]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia 8","year":"1913"},"geometry":{"type":"Point","coordinates":[22.48260764088745,58.25185151852358]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia 8","year":"1935"},"geometry":{"type":"Point","coordinates":[22.48244180460826,58.2517909020434]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia 12","year":"1969"},"geometry":{"type":"Point","coordinates":[22.48019020581652,58.25201114244718]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48492599899497,58.25242741772328]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48441174598008,58.25233919878402]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia tänav","year":"1928-36"},"geometry":{"type":"Point","coordinates":[22.48486796072944,58.2524468311026]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia  - Lossi - Keskväljak","year":""},"geometry":{"type":"Point","coordinates":[22.48434387344049,58.25199493707715]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia  - Lossi - Keskväljak","year":"1928"},"geometry":{"type":"Point","coordinates":[22.4843695723174,58.25198854171909]}}
+,
+{"type":"Feature","properties":{"address":"Piiskopilinnus","year":""},"geometry":{"type":"Point","coordinates":[22.48169811722942,58.24540845379191]}}
+,
+{"type":"Feature","properties":{"address":"Piiskopilinnus","year":""},"geometry":{"type":"Point","coordinates":[22.48122672541993,58.24780197466707]}}
+,
+{"type":"Feature","properties":{"address":"Piiskopilinnus","year":""},"geometry":{"type":"Point","coordinates":[22.48153671098999,58.24531940710996]}}
+,
+{"type":"Feature","properties":{"address":"Piiskopilinnus","year":""},"geometry":{"type":"Point","coordinates":[22.4810627198445,58.24777321026476]}}
+,
+{"type":"Feature","properties":{"address":"Piiskopilinnus","year":""},"geometry":{"type":"Point","coordinates":[22.4813181988428,58.2474478855936]}}
+,
+{"type":"Feature","properties":{"address":"Lootsi","year":"1902-10"},"geometry":{"type":"Point","coordinates":[22.46653839675533,58.24628376412653]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.47836521259473,58.24769070935156]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.48098743580533,58.24730655474923]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.4801833674606,58.24767893775442]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.47606168831766,58.24687235112544]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.47756566269581,58.24677643449616]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.48081451164481,58.24748543102437]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.47872499193415,58.24789605872164]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.48101218140058,58.24673051842305]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.48004999548228,58.24766957317999]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.47691718367306,58.24678207443039]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.4805584969511,58.24749647488827]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.48026074479616,58.24765305608798]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.48011869431984,58.24770497117027]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.47919208746681,58.24708405648377]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.47906098579749,58.24688144286187]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.47960380219762,58.24696835057729]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.47956713012627,58.24693440456181]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.47909736922914,58.24692208711584]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.47921927827358,58.24685615848939]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.47927753007406,58.24687062881799]}}
+,
+{"type":"Feature","properties":{"address":"Loss","year":""},"geometry":{"type":"Point","coordinates":[22.47951951340797,58.24715498608782]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48094657503479,58.24825768446458]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 1","year":"1897-1904"},"geometry":{"type":"Point","coordinates":[22.4850614725703,58.25271468340313]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 1","year":"1924"},"geometry":{"type":"Point","coordinates":[22.48522259508144,58.25266298974107]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 2","year":"1924"},"geometry":{"type":"Point","coordinates":[22.48504534981044,58.25234925843226]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 4","year":"1932-34"},"geometry":{"type":"Point","coordinates":[22.48426458036457,58.25143525276817]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 4","year":"1963"},"geometry":{"type":"Point","coordinates":[22.48423382126966,58.25141143094835]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 6","year":""},"geometry":{"type":"Point","coordinates":[22.48411340471493,58.25140329463132]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 6","year":"1932"},"geometry":{"type":"Point","coordinates":[22.48414821912107,58.25148077700121]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 8","year":""},"geometry":{"type":"Point","coordinates":[22.48371333160936,58.25080209103651]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 8","year":""},"geometry":{"type":"Point","coordinates":[22.4838267423232,58.25112176520649]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 10a","year":""},"geometry":{"type":"Point","coordinates":[22.48303571605738,58.25059631762458]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 10a","year":""},"geometry":{"type":"Point","coordinates":[22.48318225873023,58.25058801269172]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 11","year":"1920. ndad"},"geometry":{"type":"Point","coordinates":[22.48387978628376,58.25136700305848]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 12","year":"1938"},"geometry":{"type":"Point","coordinates":[22.4832321870485,58.25046127897717]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 14","year":""},"geometry":{"type":"Point","coordinates":[22.48151260850994,58.24935846759309]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 14","year":""},"geometry":{"type":"Point","coordinates":[22.48121895834658,58.24965512966193]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 14","year":""},"geometry":{"type":"Point","coordinates":[22.48158900600601,58.24950346243437]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 14","year":"1904-17"},"geometry":{"type":"Point","coordinates":[22.48174117792098,58.24951198022949]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 15","year":"1904-17"},"geometry":{"type":"Point","coordinates":[22.48341015686953,58.2509057015426]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 16","year":""},"geometry":{"type":"Point","coordinates":[22.48106634376278,58.24835461148602]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48101161916778,58.24829699499672]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 16","year":""},"geometry":{"type":"Point","coordinates":[22.4808883149498,58.24820840261426]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 16","year":""},"geometry":{"type":"Point","coordinates":[22.48079749196663,58.24810344419609]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 16","year":"1905-10"},"geometry":{"type":"Point","coordinates":[22.47981763179904,58.24783372892983]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 16","year":""},"geometry":{"type":"Point","coordinates":[22.48099790751737,58.24832028662732]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 16","year":""},"geometry":{"type":"Point","coordinates":[22.48115613874661,58.24833557907288]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 23","year":""},"geometry":{"type":"Point","coordinates":[22.48116010343629,58.24972284356337]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 27","year":"1910"},"geometry":{"type":"Point","coordinates":[22.48298765208085,58.24712435295508]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":"1912"},"geometry":{"type":"Point","coordinates":[22.48306138379293,58.25044248856276]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":"1928"},"geometry":{"type":"Point","coordinates":[22.4815449460911,58.24934545053565]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":"1928-36"},"geometry":{"type":"Point","coordinates":[22.48323279281362,58.25059531674246]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":"1932"},"geometry":{"type":"Point","coordinates":[22.48363253539173,58.2510557859893]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":"1989"},"geometry":{"type":"Point","coordinates":[22.48137330938162,58.24949418612023]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48071692762992,58.24805557126504]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48387770814417,58.2511190218474]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48356000452672,58.25082036800775]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48472091628421,58.25235544692681]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48453265972341,58.25244702586891]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48327769257948,58.25058579977996]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48131798403313,58.24930253198582]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":"1905-12"},"geometry":{"type":"Point","coordinates":[22.48533393696614,58.25273468137246]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48542431467114,58.25270224973873]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48537912583936,58.25271846556362]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":"1987-1904"},"geometry":{"type":"Point","coordinates":[22.48488663040107,58.25219658402345]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":""},"geometry":{"type":"Point","coordinates":[22.4852888915383,58.25274754811258]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":"1906"},"geometry":{"type":"Point","coordinates":[22.48342875222313,58.25076854192855]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":""},"geometry":{"type":"Point","coordinates":[22.4836648737499,58.25104276839416]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48411720764935,58.25161108721917]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":"1905"},"geometry":{"type":"Point","coordinates":[22.48024364091607,58.24768133326454]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":"1905-10"},"geometry":{"type":"Point","coordinates":[22.4833655124317,58.25076108648469]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":"1905-12"},"geometry":{"type":"Point","coordinates":[22.48358275131619,58.2511791708081]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":"1905-12"},"geometry":{"type":"Point","coordinates":[22.48359355697332,58.25107542595461]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":"1927"},"geometry":{"type":"Point","coordinates":[22.48363909997025,58.25115104987646]}}
+,
+{"type":"Feature","properties":{"address":"Lossi tänav","year":"1932"},"geometry":{"type":"Point","coordinates":[22.48137087925287,58.24935478922255]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 5","year":"1971"},"geometry":{"type":"Point","coordinates":[22.48475691511007,58.25235723996385]}}
+,
+{"type":"Feature","properties":{"address":"Lossihoov","year":""},"geometry":{"type":"Point","coordinates":[22.48004012457648,58.24763670590887]}}
+,
+{"type":"Feature","properties":{"address":"Lossihoov","year":""},"geometry":{"type":"Point","coordinates":[22.47949840244267,58.24708070573509]}}
+,
+{"type":"Feature","properties":{"address":"Lossihoov","year":""},"geometry":{"type":"Point","coordinates":[22.47988461541962,58.24741034619842]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":""},"geometry":{"type":"Point","coordinates":[22.47902896104981,58.24938796141579]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":""},"geometry":{"type":"Point","coordinates":[22.4789136803817,58.24940836302006]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":""},"geometry":{"type":"Point","coordinates":[22.47913692477415,58.24909438461144]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":""},"geometry":{"type":"Point","coordinates":[22.47929372559029,58.24921688682093]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":""},"geometry":{"type":"Point","coordinates":[22.47916380312296,58.24935606588409]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":""},"geometry":{"type":"Point","coordinates":[22.4792706278523,58.24923671530941]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":""},"geometry":{"type":"Point","coordinates":[22.47918883146752,58.24914359131813]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":""},"geometry":{"type":"Point","coordinates":[22.47844033922226,58.24925694381069]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":""},"geometry":{"type":"Point","coordinates":[22.47827443978218,58.24905056244215]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":""},"geometry":{"type":"Point","coordinates":[22.48027162085535,58.24823925917735]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":""},"geometry":{"type":"Point","coordinates":[22.47910987976539,58.24820862071159]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":""},"geometry":{"type":"Point","coordinates":[22.47919082993046,58.2492818344016]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":""},"geometry":{"type":"Point","coordinates":[22.47927382914926,58.24912534053715]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":""},"geometry":{"type":"Point","coordinates":[22.47908658409757,58.24919346810705]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":"1920 lõpp"},"geometry":{"type":"Point","coordinates":[22.47948216240907,58.24915798780647]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":"1926"},"geometry":{"type":"Point","coordinates":[22.47960474636071,58.24926332678209]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":"1984"},"geometry":{"type":"Point","coordinates":[22.47887580164065,58.24921775396836]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":"1936"},"geometry":{"type":"Point","coordinates":[22.47919510988955,58.2490929279113]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 1","year":"1936"},"geometry":{"type":"Point","coordinates":[22.47882000848462,58.24890381427203]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47781227782244,58.24882905554468]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 3","year":""},"geometry":{"type":"Point","coordinates":[22.47751448635193,58.2486861493195]}}
+,
+{"type":"Feature","properties":{"address":"Lossipargi 4","year":""},"geometry":{"type":"Point","coordinates":[22.47724341334215,58.24853659508311]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47935493906641,58.24925595322224]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47815738962664,58.24898559052102]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":"1920 ndad"},"geometry":{"type":"Point","coordinates":[22.47795063366833,58.24895350658589]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47934552067412,58.24962858149341]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47941299354922,58.24967293252467]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":"1925"},"geometry":{"type":"Point","coordinates":[22.47939115927705,58.24971969958307]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47903238982152,58.24930435050191]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47887951989673,58.24932516577911]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47919718757951,58.24923664958728]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.4790151094337,58.24909164674009]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47900873694975,58.24916298352364]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47868483350532,58.24916607744333]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47867958391027,58.24921130094546]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47945113294352,58.24909337578574]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47858263099336,58.2493146482407]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47908461707618,58.24924227086467]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":"20. saj algus"},"geometry":{"type":"Point","coordinates":[22.47936468005169,58.24910627660905]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":"1926"},"geometry":{"type":"Point","coordinates":[22.47894998727002,58.24929988167917]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":"enne I MS"},"geometry":{"type":"Point","coordinates":[22.47612820948441,58.24627982556489]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47711844404074,58.24806307637756]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47599787188063,58.24769433263537]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47596920532126,58.24774624263789]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47980170655784,58.25000677462849]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":"1925"},"geometry":{"type":"Point","coordinates":[22.47845315191293,58.24902222231477]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47886659771596,58.24916476750041]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47817960492208,58.24900675765388]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47820685090222,58.24906456235292]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":"20. saj algus"},"geometry":{"type":"Point","coordinates":[22.47786410110851,58.24889150887267]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":""},"geometry":{"type":"Point","coordinates":[22.47872452262337,58.2492610436553]}}
+,
+{"type":"Feature","properties":{"address":"Pargi tänav","year":""},"geometry":{"type":"Point","coordinates":[22.47741996785281,58.24873291701162]}}
+,
+{"type":"Feature","properties":{"address":"Pargi tänav","year":"1934"},"geometry":{"type":"Point","coordinates":[22.48167702721826,58.24953624778332]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 4","year":"1934"},"geometry":{"type":"Point","coordinates":[22.47850033036377,58.24990282105758]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 4","year":"1905"},"geometry":{"type":"Point","coordinates":[22.47839898964476,58.24982018071929]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 5","year":""},"geometry":{"type":"Point","coordinates":[22.4781901156228,58.24933140561349]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 5","year":""},"geometry":{"type":"Point","coordinates":[22.47824629482889,58.24938278027762]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 5","year":""},"geometry":{"type":"Point","coordinates":[22.47814712308694,58.24929286433167]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 6","year":"1930"},"geometry":{"type":"Point","coordinates":[22.4781159927981,58.24929792432772]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10,12","year":""},"geometry":{"type":"Point","coordinates":[22.47730731336059,58.24873504522874]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10,12","year":""},"geometry":{"type":"Point","coordinates":[22.47759599676374,58.24889060833214]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10,12","year":""},"geometry":{"type":"Point","coordinates":[22.47730933985435,58.24868798847985]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10,12","year":""},"geometry":{"type":"Point","coordinates":[22.47741498389182,58.24878703663445]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10,12","year":""},"geometry":{"type":"Point","coordinates":[22.47683387579624,58.2484034317522]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10","year":""},"geometry":{"type":"Point","coordinates":[22.47667658776698,58.24838706182558]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10","year":""},"geometry":{"type":"Point","coordinates":[22.47749475737594,58.24876350877724]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10","year":""},"geometry":{"type":"Point","coordinates":[22.47724617885912,58.24863377682579]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 121","year":""},"geometry":{"type":"Point","coordinates":[22.47650201715478,58.24836773174752]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 12","year":""},"geometry":{"type":"Point","coordinates":[22.47677181207327,58.24848323279886]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10, 12","year":""},"geometry":{"type":"Point","coordinates":[22.47712883704091,58.24864685857792]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10","year":""},"geometry":{"type":"Point","coordinates":[22.47717314967269,58.24857495674105]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10","year":""},"geometry":{"type":"Point","coordinates":[22.47669597283557,58.2483302167448]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10","year":""},"geometry":{"type":"Point","coordinates":[22.47704925407489,58.24858071672832]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10","year":"1905-12"},"geometry":{"type":"Point","coordinates":[22.47685420103927,58.24848421933337]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10, 12","year":"1920"},"geometry":{"type":"Point","coordinates":[22.47589253221501,58.24959902394341]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10, 12","year":"1920.ndad"},"geometry":{"type":"Point","coordinates":[22.47687588977327,58.24845912771279]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10, 12","year":"1928-36"},"geometry":{"type":"Point","coordinates":[22.47638873134095,58.24828669934386]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10, 12","year":"1932-34"},"geometry":{"type":"Point","coordinates":[22.47720311346115,58.24867672068965]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10","year":"1938"},"geometry":{"type":"Point","coordinates":[22.47689414811976,58.24851367057608]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10","year":"1938"},"geometry":{"type":"Point","coordinates":[22.47713710593289,58.24861436302447]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10","year":"1921-24"},"geometry":{"type":"Point","coordinates":[22.47669108557123,58.24857129952174]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10","year":""},"geometry":{"type":"Point","coordinates":[22.47643882527394,58.24845908932455]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10","year":""},"geometry":{"type":"Point","coordinates":[22.47620684476117,58.24837347753592]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10","year":""},"geometry":{"type":"Point","coordinates":[22.47662879048039,58.24852537181846]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10","year":"1921-36"},"geometry":{"type":"Point","coordinates":[22.4767585732493,58.24866247107096]}}
+,
+{"type":"Feature","properties":{"address":"Pargi 10","year":"1935"},"geometry":{"type":"Point","coordinates":[22.47707604960515,58.24875287053618]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 4","year":"1935"},"geometry":{"type":"Point","coordinates":[22.48137884134876,58.25120552574328]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 17","year":""},"geometry":{"type":"Point","coordinates":[22.48083020157005,58.254585481439]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 26","year":""},"geometry":{"type":"Point","coordinates":[22.48134616872138,58.25595673636762]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 30","year":"1931"},"geometry":{"type":"Point","coordinates":[22.48113221588793,58.25665543888433]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 31","year":""},"geometry":{"type":"Point","coordinates":[22.48091221256849,58.2573700707154]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 31","year":"1928-30"},"geometry":{"type":"Point","coordinates":[22.4808944952957,58.25828102192651]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 31","year":""},"geometry":{"type":"Point","coordinates":[22.48095798551996,58.25746851070083]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 31","year":""},"geometry":{"type":"Point","coordinates":[22.48091246717208,58.25744725902883]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 31","year":"1912"},"geometry":{"type":"Point","coordinates":[22.48086627251458,58.25745869542329]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 31","year":"1923"},"geometry":{"type":"Point","coordinates":[22.4809370055414,58.25847236126912]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 31","year":"1930"},"geometry":{"type":"Point","coordinates":[22.48125963527245,58.25819570997233]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 35","year":""},"geometry":{"type":"Point","coordinates":[22.48115254541888,58.25877614505427]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 39","year":"1955"},"geometry":{"type":"Point","coordinates":[22.48101040601777,58.25884222075721]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 40, 42","year":"1909"},"geometry":{"type":"Point","coordinates":[22.4809763999802,58.25822056751366]}}
+,
+{"type":"Feature","properties":{"address":"Pikk tänav","year":"1913"},"geometry":{"type":"Point","coordinates":[22.48116175104896,58.25768907223922]}}
+,
+{"type":"Feature","properties":{"address":"Pikk tänav","year":"1909"},"geometry":{"type":"Point","coordinates":[22.48137689463086,58.25550786199061]}}
+,
+{"type":"Feature","properties":{"address":"Pärna 19","year":""},"geometry":{"type":"Point","coordinates":[22.48902313256818,58.251816357175]}}
+,
+{"type":"Feature","properties":{"address":"Pärna 19","year":""},"geometry":{"type":"Point","coordinates":[22.48948913938572,58.25185860103957]}}
+,
+{"type":"Feature","properties":{"address":"Pärna 19","year":"1930"},"geometry":{"type":"Point","coordinates":[22.4891644717167,58.25189333828761]}}
+,
+{"type":"Feature","properties":{"address":"Raekoja 1, Lossi 1","year":""},"geometry":{"type":"Point","coordinates":[22.48577331088179,58.25254909855944]}}
+,
+{"type":"Feature","properties":{"address":"Raekoja 1, Lossi 1","year":""},"geometry":{"type":"Point","coordinates":[22.48645701875253,58.25234450461961]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 1","year":""},"geometry":{"type":"Point","coordinates":[22.48539545405551,58.25286651927248]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47312048400598,58.24399500603824]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.478942931238,58.2468340291282]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47797226237195,58.24632885378797]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.4731919787869,58.24424591547479]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47413602353529,58.2438807297542]}}
+,
+{"type":"Feature","properties":{"address":"Tori","year":""},"geometry":{"type":"Point","coordinates":[22.47102066874979,58.24458881711187]}}
+,
+{"type":"Feature","properties":{"address":"Tori","year":""},"geometry":{"type":"Point","coordinates":[22.47016910857836,58.24446562315042]}}
+,
+{"type":"Feature","properties":{"address":"Tori","year":""},"geometry":{"type":"Point","coordinates":[22.47074072049757,58.24445743645646]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47453473421351,58.24622023325344]}}
+,
+{"type":"Feature","properties":{"address":"Tori","year":""},"geometry":{"type":"Point","coordinates":[22.47020682170378,58.24457936233363]}}
+,
+{"type":"Feature","properties":{"address":"Tori","year":""},"geometry":{"type":"Point","coordinates":[22.47280801032827,58.24387265237246]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.4730904367441,58.24345058159759]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":"1935"},"geometry":{"type":"Point","coordinates":[22.47196021904451,58.24349725057576]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":"1989"},"geometry":{"type":"Point","coordinates":[22.476691345093,58.24572272399901]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47782837375969,58.24452396067059]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47390765901489,58.24238355806462]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47437469944111,58.24446752143006]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47467842424106,58.24475215644582]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47491827774949,58.24489937006408]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47497890076241,58.24502824339656]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.4754510844213,58.24533888050273]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47555068075177,58.24534760450117]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47492407585872,58.24497487402864]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47576608340756,58.24540745768158]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":"1905"},"geometry":{"type":"Point","coordinates":[22.47560712623294,58.2460260068149]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":"1926"},"geometry":{"type":"Point","coordinates":[22.47294474890699,58.24384793810826]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47558052740048,58.24531784106452]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.4761724319399,58.245667561579]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47625272564841,58.24562710691145]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47431100040832,58.24460093226053]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47477154824496,58.24470335598565]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47601516491654,58.24509149310603]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47331653502407,58.2447466235705]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47288319151805,58.24386790733989]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.4735189511108,58.24502014351136]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":"1920"},"geometry":{"type":"Point","coordinates":[22.47336924512866,58.24484891518543]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47311542628599,58.24330634012762]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47288465411093,58.24383403857643]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47297808368069,58.24382009972381]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47302722941658,58.2438395154855]}}
+,
+{"type":"Feature","properties":{"address":"Staadioni","year":""},"geometry":{"type":"Point","coordinates":[22.4820637666906,58.24708027450276]}}
+,
+{"type":"Feature","properties":{"address":"Staadioni","year":""},"geometry":{"type":"Point","coordinates":[22.48194685329299,58.24547869677857]}}
+,
+{"type":"Feature","properties":{"address":"Staadioni","year":""},"geometry":{"type":"Point","coordinates":[22.4820383451109,58.24550990976013]}}
+,
+{"type":"Feature","properties":{"address":"Staadioni","year":""},"geometry":{"type":"Point","coordinates":[22.48209469458862,58.24586073979657]}}
+,
+{"type":"Feature","properties":{"address":"Staadioni","year":""},"geometry":{"type":"Point","coordinates":[22.4804125952764,58.24611927555844]}}
+,
+{"type":"Feature","properties":{"address":"Staadioni","year":""},"geometry":{"type":"Point","coordinates":[22.4818063703885,58.24542430817399]}}
+,
+{"type":"Feature","properties":{"address":"Staadioni","year":"1898-1904"},"geometry":{"type":"Point","coordinates":[22.48193118244423,58.24584372788407]}}
+,
+{"type":"Feature","properties":{"address":"Staadioni","year":"1905-10"},"geometry":{"type":"Point","coordinates":[22.48318932257064,58.24597922152846]}}
+,
+{"type":"Feature","properties":{"address":"Staadioni","year":"1905-10"},"geometry":{"type":"Point","coordinates":[22.48056081819764,58.24582736553769]}}
+,
+{"type":"Feature","properties":{"address":"Staadioni","year":"1906"},"geometry":{"type":"Point","coordinates":[22.48293544564495,58.24590465629238]}}
+,
+{"type":"Feature","properties":{"address":"Staadioni","year":"1920-30. ndad"},"geometry":{"type":"Point","coordinates":[22.48041047122364,58.24600253092717]}}
+,
+{"type":"Feature","properties":{"address":"Staadioni","year":"1920-30. ndad"},"geometry":{"type":"Point","coordinates":[22.48180798606852,58.24538667610264]}}
+,
+{"type":"Feature","properties":{"address":"Staadioni","year":""},"geometry":{"type":"Point","coordinates":[22.48314813612153,58.24527465034889]}}
+,
+{"type":"Feature","properties":{"address":"Roomassaare","year":""},"geometry":{"type":"Point","coordinates":[22.50488395768137,58.21472588559392]}}
+,
+{"type":"Feature","properties":{"address":"Suur-Põllu 2, 4","year":"20. saj algus"},"geometry":{"type":"Point","coordinates":[22.47751039715386,58.25253143302647]}}
+,
+{"type":"Feature","properties":{"address":"Suur-Põllu  4","year":"1906"},"geometry":{"type":"Point","coordinates":[22.47748257579294,58.25259699003279]}}
+,
+{"type":"Feature","properties":{"address":"Suur-Põllu tänav","year":"1931"},"geometry":{"type":"Point","coordinates":[22.47592593938201,58.25217359873786]}}
+,
+{"type":"Feature","properties":{"address":"Suur-Põllu tänav","year":"1965"},"geometry":{"type":"Point","coordinates":[22.47586436877935,58.25202790313556]}}
+,
+{"type":"Feature","properties":{"address":"Suur-Sadama 23","year":"1905"},"geometry":{"type":"Point","coordinates":[22.47577797616159,58.24997298278945]}}
+,
+{"type":"Feature","properties":{"address":"Suur-Sadama tänav","year":"1930"},"geometry":{"type":"Point","coordinates":[22.47567617383824,58.25092622668391]}}
+,
+{"type":"Feature","properties":{"address":"Suuresild","year":"1908"},"geometry":{"type":"Point","coordinates":[22.4759701321608,58.26390630911203]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 1-3","year":""},"geometry":{"type":"Point","coordinates":[22.48522132386941,58.25293347184248]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 1","year":"1930"},"geometry":{"type":"Point","coordinates":[22.48514370884905,58.25283860346315]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 2, 4","year":"1909"},"geometry":{"type":"Point","coordinates":[22.48603242098824,58.25332673207428]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 2","year":"1909"},"geometry":{"type":"Point","coordinates":[22.48470222657005,58.25291750429799]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 2","year":""},"geometry":{"type":"Point","coordinates":[22.48558226806818,58.25317458662634]}}
+,
+{"type":"Feature","properties":{"address":"Keskväljak - Lossi tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48542345538936,58.25315508154764]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 2, 4","year":""},"geometry":{"type":"Point","coordinates":[22.48477039144456,58.25290802049445]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 2","year":"1930. ndad"},"geometry":{"type":"Point","coordinates":[22.48471565126696,58.25288583963494]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 2","year":"1920"},"geometry":{"type":"Point","coordinates":[22.48475944122054,58.25229725247484]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 2","year":"1920"},"geometry":{"type":"Point","coordinates":[22.48480588484712,58.25285951392362]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 2","year":"1927"},"geometry":{"type":"Point","coordinates":[22.48474296851145,58.2528548502448]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 2","year":"1928-30"},"geometry":{"type":"Point","coordinates":[22.48481309065147,58.2523448635689]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 2","year":"1928-36"},"geometry":{"type":"Point","coordinates":[22.48493312038926,58.25274947042177]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 2","year":"1928-36"},"geometry":{"type":"Point","coordinates":[22.48479665868142,58.25272827353355]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 2","year":""},"geometry":{"type":"Point","coordinates":[22.48561045168558,58.25253833165227]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 2","year":"1928"},"geometry":{"type":"Point","coordinates":[22.48534707868902,58.25287965847034]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 3, 5","year":""},"geometry":{"type":"Point","coordinates":[22.48557512670822,58.25318964917924]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 3-9","year":""},"geometry":{"type":"Point","coordinates":[22.48643423002396,58.2533290459781]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 3-9","year":""},"geometry":{"type":"Point","coordinates":[22.48497483904471,58.25264232279383]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 3","year":"1968"},"geometry":{"type":"Point","coordinates":[22.48529544806519,58.25313151888394]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 3","year":""},"geometry":{"type":"Point","coordinates":[22.48573358023543,58.25313086294609]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 3","year":"1905-10"},"geometry":{"type":"Point","coordinates":[22.48533022397949,58.2529264299189]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 4","year":""},"geometry":{"type":"Point","coordinates":[22.48544686240056,58.25323705158774]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 4","year":"1913"},"geometry":{"type":"Point","coordinates":[22.48591688568467,58.25327200372841]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 5","year":"1936"},"geometry":{"type":"Point","coordinates":[22.4850500127006,58.25340064338113]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 5, 7","year":""},"geometry":{"type":"Point","coordinates":[22.48519339602029,58.25343366540592]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 8","year":"1910"},"geometry":{"type":"Point","coordinates":[22.48649390746539,58.25349611543725]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 8","year":"1910"},"geometry":{"type":"Point","coordinates":[22.48681164783966,58.25361928236601]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 9","year":""},"geometry":{"type":"Point","coordinates":[22.48578225095962,58.2528613526229]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 9, 11","year":"1923"},"geometry":{"type":"Point","coordinates":[22.48686128597106,58.25350048534826]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 9, 11","year":""},"geometry":{"type":"Point","coordinates":[22.48526574198964,58.25291491973681]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 9, 11","year":""},"geometry":{"type":"Point","coordinates":[22.4853692951762,58.25293039575401]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 10","year":""},"geometry":{"type":"Point","coordinates":[22.4855799857015,58.2532381140422]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 9","year":"1920- 30.ndad"},"geometry":{"type":"Point","coordinates":[22.48554074716762,58.25307283348914]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 9","year":"1928-36"},"geometry":{"type":"Point","coordinates":[22.48542091797618,58.25296009901504]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 10","year":""},"geometry":{"type":"Point","coordinates":[22.48651576650305,58.2535326800863]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 11","year":"1927"},"geometry":{"type":"Point","coordinates":[22.48607060343833,58.25320182619061]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 11","year":"1928"},"geometry":{"type":"Point","coordinates":[22.48618074160855,58.25324383143093]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 11","year":"1928-36"},"geometry":{"type":"Point","coordinates":[22.48604998147714,58.25314257351233]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 11","year":"peale 1945"},"geometry":{"type":"Point","coordinates":[22.48690397413537,58.25312017734011]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 13","year":""},"geometry":{"type":"Point","coordinates":[22.48663655458521,58.25341610239925]}}
+,
+{"type":"Feature","properties":{"address":"Torni tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48603911977004,58.25438770134335]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 13","year":""},"geometry":{"type":"Point","coordinates":[22.48776371919478,58.25377540979405]}}
+,
+{"type":"Feature","properties":{"address":"Kiriku tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48584956315305,58.25412703435549]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 19","year":""},"geometry":{"type":"Point","coordinates":[22.48834239429873,58.25396337789656]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 19","year":"1908"},"geometry":{"type":"Point","coordinates":[22.48823350036701,58.25398243133861]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 19","year":"1928"},"geometry":{"type":"Point","coordinates":[22.48847481611323,58.25402599317428]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 19","year":"enne 1910"},"geometry":{"type":"Point","coordinates":[22.48820550620131,58.25391495253987]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 20","year":""},"geometry":{"type":"Point","coordinates":[22.48933061698565,58.25432305482301]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna tänav","year":""},"geometry":{"type":"Point","coordinates":[22.49019103550103,58.2545123245915]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 20","year":""},"geometry":{"type":"Point","coordinates":[22.4891627557126,58.25445738859502]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 23, 25","year":"1971"},"geometry":{"type":"Point","coordinates":[22.49144124975804,58.25497479519701]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 26","year":""},"geometry":{"type":"Point","coordinates":[22.49262188179652,58.25471613462829]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna tänav","year":""},"geometry":{"type":"Point","coordinates":[22.49349660375915,58.25574792882477]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 29","year":"1921-24"},"geometry":{"type":"Point","coordinates":[22.49357758113432,58.25565935955462]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 29","year":"1966"},"geometry":{"type":"Point","coordinates":[22.49406966405715,58.2559785329398]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna 30, 32","year":""},"geometry":{"type":"Point","coordinates":[22.49407244236784,58.25609454532897]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48512196650813,58.25309083215381]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48502048111243,58.25293701861365]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48529236347364,58.25289752649411]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48456032350106,58.25286642667791]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48571286187091,58.2531731518594]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48461300396887,58.25280804687098]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna tänav","year":"20. või 30.ndad"},"geometry":{"type":"Point","coordinates":[22.48558072215357,58.25283381312071]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna tänav","year":"1940. algul"},"geometry":{"type":"Point","coordinates":[22.48514624680248,58.25306466971424]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna tänav","year":"1905-10"},"geometry":{"type":"Point","coordinates":[22.48560816290441,58.25282396609332]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna tänav","year":"1920"},"geometry":{"type":"Point","coordinates":[22.48630143560905,58.25339990725486]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna tänav","year":"1920"},"geometry":{"type":"Point","coordinates":[22.48655011265789,58.25345169933413]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna tänav","year":"1920"},"geometry":{"type":"Point","coordinates":[22.49626079792454,58.2571469470926]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna tänav","year":"1920"},"geometry":{"type":"Point","coordinates":[22.48555431119603,58.25284214635031]}}
+,
+{"type":"Feature","properties":{"address":"Tallinna tänav","year":""},"geometry":{"type":"Point","coordinates":[22.49412156003615,58.25611954340552]}}
+,
+{"type":"Feature","properties":{"address":"Tolli tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48044841867394,58.25334234268626]}}
+,
+{"type":"Feature","properties":{"address":"Tolli tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48049216318641,58.25394107801676]}}
+,
+{"type":"Feature","properties":{"address":"Tolli tänav","year":"1912"},"geometry":{"type":"Point","coordinates":[22.4804496259765,58.25385307625565]}}
+,
+{"type":"Feature","properties":{"address":"Tolli tänav","year":"1917"},"geometry":{"type":"Point","coordinates":[22.48044972521517,58.25394057115892]}}
+,
+{"type":"Feature","properties":{"address":"Tolli tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48049910444094,58.25404900201041]}}
+,
+{"type":"Feature","properties":{"address":"Tolli tänav","year":"1908"},"geometry":{"type":"Point","coordinates":[22.48069272899152,58.25421409336318]}}
+,
+{"type":"Feature","properties":{"address":"Tolli tänav","year":""},"geometry":{"type":"Point","coordinates":[22.47967649830892,58.25109694326259]}}
+,
+{"type":"Feature","properties":{"address":"Tolli tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48044317396089,58.25346436430379]}}
+,
+{"type":"Feature","properties":{"address":"Tolli 27","year":""},"geometry":{"type":"Point","coordinates":[22.48064790409842,58.25423582622299]}}
+,
+{"type":"Feature","properties":{"address":"Tolli tänav","year":"1904"},"geometry":{"type":"Point","coordinates":[22.48049418940564,58.25335509778386]}}
+,
+{"type":"Feature","properties":{"address":"Tolli tänav","year":"1908"},"geometry":{"type":"Point","coordinates":[22.47977648521396,58.25065659992952]}}
+,
+{"type":"Feature","properties":{"address":"Tolli tänav","year":"1906"},"geometry":{"type":"Point","coordinates":[22.47972467934617,58.25231022305889]}}
+,
+{"type":"Feature","properties":{"address":"Tolli tänav","year":"1968"},"geometry":{"type":"Point","coordinates":[22.47924242580556,58.2520358737626]}}
+,
+{"type":"Feature","properties":{"address":"Lootsi ps","year":""},"geometry":{"type":"Point","coordinates":[22.46973844831549,58.24497427174567]}}
+,
+{"type":"Feature","properties":{"address":"Tori abajas","year":""},"geometry":{"type":"Point","coordinates":[22.47046839624233,58.24433600266952]}}
+,
+{"type":"Feature","properties":{"address":"Tori abajas","year":""},"geometry":{"type":"Point","coordinates":[22.47254669788671,58.246965449913]}}
+,
+{"type":"Feature","properties":{"address":"Tori abajas","year":"1901"},"geometry":{"type":"Point","coordinates":[22.47112707606411,58.2455240737389]}}
+,
+{"type":"Feature","properties":{"address":"Tori abajas","year":"1905"},"geometry":{"type":"Point","coordinates":[22.47700740988287,58.24697824183567]}}
+,
+{"type":"Feature","properties":{"address":"Tori abajas","year":""},"geometry":{"type":"Point","coordinates":[22.46761789560206,58.24528650982198]}}
+,
+{"type":"Feature","properties":{"address":"Tori abajas","year":""},"geometry":{"type":"Point","coordinates":[22.47359913456306,58.24511425895642]}}
+,
+{"type":"Feature","properties":{"address":"Torni tänav","year":"1930"},"geometry":{"type":"Point","coordinates":[22.48597384580306,58.25455987697473]}}
+,
+{"type":"Feature","properties":{"address":"Turu 10","year":""},"geometry":{"type":"Point","coordinates":[22.48194735526249,58.25259314124403]}}
+,
+{"type":"Feature","properties":{"address":"Turu tänav","year":"1908"},"geometry":{"type":"Point","coordinates":[22.483538924112,58.25274234550675]}}
+,
+{"type":"Feature","properties":{"address":"Turu tänav","year":"20. saj algus"},"geometry":{"type":"Point","coordinates":[22.48125950812233,58.25252185490142]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.4747992786962,58.24484777087943]}}
+,
+{"type":"Feature","properties":{"address":"Uus tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48804604209483,58.25222829908662]}}
+,
+{"type":"Feature","properties":{"address":"Uus tänav","year":"1912"},"geometry":{"type":"Point","coordinates":[22.48813428144758,58.2523310843614]}}
+,
+{"type":"Feature","properties":{"address":"Uus tänav","year":"1927"},"geometry":{"type":"Point","coordinates":[22.48282331484678,58.24846086753208]}}
+,
+{"type":"Feature","properties":{"address":"Lossihoov 1","year":""},"geometry":{"type":"Point","coordinates":[22.47914239432043,58.24704855050519]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia","year":""},"geometry":{"type":"Point","coordinates":[22.48468143889511,58.25229203935878]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia","year":"1928"},"geometry":{"type":"Point","coordinates":[22.4846201495739,58.25228113565568]}}
+,
+{"type":"Feature","properties":{"address":"Lasteaia","year":""},"geometry":{"type":"Point","coordinates":[22.48460402092744,58.25229722141843]}}
+,
+{"type":"Feature","properties":{"address":"Veski 9","year":"1935"},"geometry":{"type":"Point","coordinates":[22.47685078606885,58.24949435778335]}}
+,
+{"type":"Feature","properties":{"address":"Väike-Roomassaare ps","year":""},"geometry":{"type":"Point","coordinates":[22.47994733752373,58.24116149964416]}}
+,
+{"type":"Feature","properties":{"address":"Väike-Roomassaare ps","year":""},"geometry":{"type":"Point","coordinates":[22.47854158197283,58.24083134044468]}}
+,
+{"type":"Feature","properties":{"address":"Väike-Roomassaare ps","year":""},"geometry":{"type":"Point","coordinates":[22.47813839893966,58.2408753502439]}}
+,
+{"type":"Feature","properties":{"address":"Väike-Roomassaare ps","year":""},"geometry":{"type":"Point","coordinates":[22.47987942985996,58.24058689164832]}}
+,
+{"type":"Feature","properties":{"address":"Pikk tänav","year":"1920-30"},"geometry":{"type":"Point","coordinates":[22.48124541054923,58.25320942777212]}}
+,
+{"type":"Feature","properties":{"address":"Lossipark","year":"1989"},"geometry":{"type":"Point","coordinates":[22.48021774572708,58.248319603229]}}
+,
+{"type":"Feature","properties":{"address":"Lossi 7","year":""},"geometry":{"type":"Point","coordinates":[22.48450518525522,58.25164051807971]}}
+,
+{"type":"Feature","properties":{"address":"August Kitzbergi tn 2","year":""},"geometry":{"type":"Point","coordinates":[22.48366038172464,58.24991276907558]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 41","year":""},"geometry":{"type":"Point","coordinates":[22.48161085282443,58.25938198611496]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 6","year":""},"geometry":{"type":"Point","coordinates":[22.48119437788118,58.25198328381834]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 44","year":""},"geometry":{"type":"Point","coordinates":[22.48072619679817,58.25841257266058]}}
+,
+{"type":"Feature","properties":{"address":"Loode","year":"1903"},"geometry":{"type":"Point","coordinates":[22.43955884679405,58.23924943507622]}}
+,
+{"type":"Feature","properties":{"address":"Loode","year":""},"geometry":{"type":"Point","coordinates":[22.44576780136786,58.23511539136436]}}
+,
+{"type":"Feature","properties":{"address":"Loode","year":""},"geometry":{"type":"Point","coordinates":[22.44620393270973,58.23505914284075]}}
+,
+{"type":"Feature","properties":{"address":"Pikk tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48139632520796,58.25206852114758]}}
+,
+{"type":"Feature","properties":{"address":"Vaade Kiriku, Kohtu, Kauba, Pikk","year":"1906"},"geometry":{"type":"Point","coordinates":[22.48554529287615,58.25279533371357]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 13","year":""},"geometry":{"type":"Point","coordinates":[22.4813392294085,58.25417467940234]}}
+,
+{"type":"Feature","properties":{"address":"Komandandi tänav","year":"1931"},"geometry":{"type":"Point","coordinates":[22.487101937769,58.25469224619964]}}
+,
+{"type":"Feature","properties":{"address":"Kiriku 2","year":"18. saj"},"geometry":{"type":"Point","coordinates":[22.48482809383145,58.25397349416375]}}
+,
+{"type":"Feature","properties":{"address":"Kiriku 2","year":"18. saj"},"geometry":{"type":"Point","coordinates":[22.48471886014391,58.25409337023511]}}
+,
+{"type":"Feature","properties":{"address":"Lootsi 10","year":""},"geometry":{"type":"Point","coordinates":[22.46866454926504,58.2469254299587]}}
+,
+{"type":"Feature","properties":{"address":"Lootsi 14","year":""},"geometry":{"type":"Point","coordinates":[22.46802568158497,58.24675769115939]}}
+,
+{"type":"Feature","properties":{"address":"Staadioni","year":"1840"},"geometry":{"type":"Point","coordinates":[22.48090957552725,58.24215771889597]}}
+,
+{"type":"Feature","properties":{"address":"Veski 1","year":""},"geometry":{"type":"Point","coordinates":[22.47806092286683,58.24946174894104]}}
+,
+{"type":"Feature","properties":{"address":"Kauba 2","year":""},"geometry":{"type":"Point","coordinates":[22.48461609291691,58.25298574340829]}}
+,
+{"type":"Feature","properties":{"address":"Suur-Sadama","year":""},"geometry":{"type":"Point","coordinates":[22.47474526985869,58.24986538220892]}}
+,
+{"type":"Feature","properties":{"address":"Kohtu 22a","year":"1920-1930"},"geometry":{"type":"Point","coordinates":[22.48210869358648,58.25661782486835]}}
+,
+{"type":"Feature","properties":{"address":"Pikk 23","year":""},"geometry":{"type":"Point","coordinates":[22.48119002015868,58.25595743585149]}}
+,
+{"type":"Feature","properties":{"address":"Komandandi 9","year":"1931"},"geometry":{"type":"Point","coordinates":[22.4872562064528,58.25494716877216]}}
+,
+{"type":"Feature","properties":{"address":"Raiekivi ps","year":""},"geometry":{"type":"Point","coordinates":[22.47598408786813,58.24557285862727]}}
+,
+{"type":"Feature","properties":{"address":"Kauba-Kohtu tn 1","year":"1930. ndad"},"geometry":{"type":"Point","coordinates":[22.48418562855887,58.25229156743805]}}
+,
+{"type":"Feature","properties":{"address":"Kauba tänav","year":""},"geometry":{"type":"Point","coordinates":[22.48287405255421,58.25399105407293]}}
+,
+{"type":"Feature","properties":{"address":"Turu 6","year":""},"geometry":{"type":"Point","coordinates":[22.48224842414327,58.25212484602029]}}
+,
+{"type":"Feature","properties":{"address":"Lossihoov","year":""},"geometry":{"type":"Point","coordinates":[22.47985692563575,58.24736815066121]}}]}
