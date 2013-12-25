@@ -42,24 +42,23 @@ db.spatialite(function(err) {
             f.properties.year_historic = row.ehitusaast > 0 ? row.ehitusaast : ''
           }
         }, function() {
-      
       /*
-        db.all("SELECT * FROM historic_photos WHERE asukoht LIKE '%" + f.properties.address + "%';", function(err, row) {
+        f.properties.historic_photos = []
+      
+        db.each("SELECT * FROM historic_photos WHERE asukoht LIKE '%" + f.properties.address + "%';", function(err, row) {
           if (err) console.log(err)
           if (row) {
-            f.properties.historic_photos = []
-            row.forEach(function(item) {
-              var file = item.foto.split('\\')[4]
+              var file = row.foto.split('\\')[4]
               file = file ? file.replace(/õ/g, 'o').replace(/ä/g, 'a').replace(/ö/g, 'o').replace(/ü/g, 'u') : ''
               f.properties.historic_photos.push({
                 url: base_historic_photo + '/' + file,
-                desc: item.selgitus,
-                year: item.aasta, // @todo cleanup
-                angle: item.pildistami
+                desc: row.selgitus,
+                year: row.aasta, // @todo cleanup
+                angle: row.pildistami
               })
-             })
             }
-        */    
+            }, function() {
+        */
             db.each("SELECT * FROM osiliana_map WHERE col_0 LIKE '%" + f.properties.address + "%' LIMIT 1", function(err, row) {
               if (err) console.log(err)
               if (row && row.PK_UID !== 2) {
@@ -76,9 +75,9 @@ db.spatialite(function(err) {
               count++
             })
        
-            /*
-        })
-        */
+            
+ /*     }) */
+        
         
       });
       
