@@ -19,7 +19,7 @@ function main() {
         if (currLayer) master.resetStyle(currLayer);
         
         e.layer.setStyle({
-            weight: 3
+          fillOpacity: 1,
           });
         
         currLayer = e.layer
@@ -57,8 +57,8 @@ function main() {
 
     var master = new L.GeoJSON.AJAX('../data/out/geojson/master.geojson', {onEachFeature: popUp,
          style: {
-           color: '#433',
-           opacity: 1,
+           fillColor: '#433',
+           fillOpacity: 0.3,
            weight: 0
          }
        })
