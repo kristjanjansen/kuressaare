@@ -10,6 +10,8 @@ var writer = gs.stringify();
 var base_osiliana = 'http://www.osiliana.ee'
 var base_historic_photo = 'http://gis.kuressaare.ee:8888/failid/Ajaloolised_pildid';
 
+var count = 0;
+
 db.spatialite(function(err) {
  db.serialize(function() {
 
@@ -33,13 +35,15 @@ db.spatialite(function(err) {
       f.geometry = JSON.parse(row.the_geom)
       f.latlon = JSON.parse(row.latlon)
       
-      db.all("SELECT * FROM historic_buildings WHERE aadress LIKE '%" + f.properties.address + "%' LIMIT 1", function(err, row) {
-        if (err) console.log(err)
-        if (row && row[0]) {
-          f.properties.desc = row[0].selgitus
-          f.properties.year_historic = row[0].ehitusaast > 0 ? row[0].ehitusaast : ''
-        }
+      db.each("SELECT * FROM historic_buildings WHERE aadress LIKE '%" + f.properties.address + "%' LIMIT 1", function(err, row) {
+          if (err) console.log(err)
+          if (row) {
+            f.properties.desc = row.selgitus
+            f.properties.year_historic = row.ehitusaast > 0 ? row.ehitusaast : ''
+          }
+        }, function() {
       
+      /*
         db.all("SELECT * FROM historic_photos WHERE asukoht LIKE '%" + f.properties.address + "%';", function(err, row) {
           if (err) console.log(err)
           if (row) {
@@ -54,26 +58,33 @@ db.spatialite(function(err) {
                 angle: item.pildistami
               })
              })
-            
-          }
-            db.all("SELECT * FROM osiliana_map WHERE col_0 LIKE '%" + f.properties.address + "%' LIMIT 1", function(err, row) {
+            }
+        */    
+            db.each("SELECT * FROM osiliana_map WHERE col_0 LIKE '%" + f.properties.address + "%' LIMIT 1", function(err, row) {
               if (err) console.log(err)
-              if (row && row[0] && row[0].PK_UID !== 2) {
-                f.properties.osiliana_url = path.join(base_osiliana, path.basename(row[0].col_3))
-                f.properties.osiliana_desc = row[0].desc
+              if (row && row.PK_UID !== 2) {
+                f.properties.osiliana_url = path.join(base_osiliana, path.basename(row.col_3))
+                f.properties.osiliana_desc = row.desc
                   .replace(/<a\b[^>]*>/ig,'<strong>')
                   .replace(/<\/a>/ig, '</strong>')
                   .replace(/\n\n<\/p>/g,'</p>\n')
                   .replace(/<h1>/g,'<h3>')
                   .replace(/<\/h1>/g,'</h3>')
               }
+            }, function() {
               writer.write(f)
+              count++
             })
-       })
+       
+            /*
+        })
+        */
+        
       });
       
     }, function() { 
-      writer.end() 
+      writer.end()
+      console.log(count)
     });
   
   

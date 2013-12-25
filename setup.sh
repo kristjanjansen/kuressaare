@@ -26,4 +26,4 @@ echo ".loadshp ./data/out/shp/out_historic_photos historic_photos latin1" | spat
 echo ".loadshp ./data/out/shp/out_borders borders latin1" | spatialite db.sqlite ;
 echo ".loadxl  ./data/out/xls/osiliana_map.xls osiliana_map" | spatialite db.sqlite ;
 
-node importOsiliana.js
+node exportOsiliana.js
