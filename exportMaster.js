@@ -35,17 +35,17 @@ db.spatialite(function(err) {
       f.geometry = JSON.parse(row.the_geom)
       f.latlon = JSON.parse(row.latlon)
       
-      db.each("SELECT * FROM historic_buildings WHERE aadress LIKE '%" + f.properties.address + "%' LIMIT 1", function(err, row) {
+      db.each("SELECT * FROM historic_buildings WHERE aadress = '" + f.properties.address + "' LIMIT 1", function(err, row) {
           if (err) console.log(err)
           if (row) {
             f.properties.desc = row.selgitus
             f.properties.year_historic = row.ehitusaast > 0 ? row.ehitusaast : ''
           }
         }, function() {
-      /*
+      
         f.properties.historic_photos = []
       
-        db.each("SELECT * FROM historic_photos WHERE asukoht LIKE '%" + f.properties.address + "%';", function(err, row) {
+        db.each("SELECT * FROM historic_photos WHERE asukoht = '" + f.properties.address + "';", function(err, row) {
           if (err) console.log(err)
           if (row) {
               var file = row.foto.split('\\')[4]
@@ -57,9 +57,9 @@ db.spatialite(function(err) {
                 angle: row.pildistami
               })
             }
-            }, function() {
-        */
-            db.each("SELECT * FROM osiliana_map WHERE col_0 LIKE '%" + f.properties.address + "%' LIMIT 1", function(err, row) {
+            }, function(err, results) {
+              
+            db.each("SELECT * FROM osiliana_map WHERE col_0 = '" + f.properties.address + "' LIMIT 1", function(err, row) {
               if (err) console.log(err)
               if (row && row.PK_UID !== 2) {
                 f.properties.osiliana_url = path.join(base_osiliana, path.basename(row.col_3))
@@ -76,14 +76,13 @@ db.spatialite(function(err) {
             })
        
             
- /*     }) */
+     }) 
         
         
       });
       
     }, function() { 
       writer.end()
-      console.log(count)
     });
   
   
