@@ -1,20 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-  </head>
-  <body>
-        
-  </body>
-</html>
-
-<!DOCTYPE html>
-<html>
-  <head>
     
     <title>Kuressaare</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-   
+    <meta charset="utf-8">
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css"  /> 
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -48,6 +38,8 @@
           <h2>
           {{address}}
           </h2>
+          
+          {{#oldmap_url}}<a class="oldmap" href="{{oldmap_url}}" target="_blank">Vaata krundiplaani</a>{{/oldmap_url}}
           
           {{year}} {{year_historic}}
       
