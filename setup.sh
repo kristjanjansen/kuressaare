@@ -6,7 +6,7 @@ rm data/out/shp/* ;
 cd data/in/shp ;
 
 ogr2ogr -t_srs EPSG:4326 out_buildings.shp Linna_majad.shp ;
-ogr2ogr -t_srs EPSG:4326 out_historic_buildings.shp kuressaare.shp ;
+#ogr2ogr -t_srs EPSG:4326 out_historic_buildings.shp ajaloolised_majad.shp ;
 ogr2ogr -t_srs EPSG:4326 out_roads.shp Kur_teed.shp ;
 ogr2ogr -t_srs EPSG:4326 out_historic_borders.shp Vanad_piirid.shp ;
 ogr2ogr -t_srs EPSG:4326 out_historic_photos.shp vanalinna_fotod.shp ;
@@ -14,9 +14,7 @@ ogr2ogr -t_srs EPSG:4326 out_borders.shp SHP_KATASTER.shp ;
 
 cd ../geojson
 
-#ogr2ogr -t_srs EPSG:4326 -f "GeoJSON" historic_buildings.geojson ajaloolised_majad.geojson ;
-export SHAPE_ENCODING="ISO-8859-1";
-ogr2ogr -t_srs EPSG:4326 -f "GeoJSON" -lco ENCODING=UTF-8 historic_buildings.geojson ajaloolised_majad.geojson ;
+ogr2ogr -t_srs EPSG:4326 -f "GeoJSON" historic_buildings.geojson ajaloolised_majad.geojson ;
 
 cd ../../..
 

@@ -62,7 +62,8 @@ db.spatialite(function(err) {
             db.each("SELECT * FROM osiliana_map WHERE col_0 = '" + f.properties.address + "' LIMIT 1", function(err, row) {
               if (err) console.log(err)
               if (row && row.PK_UID !== 2) {
-                f.properties.osiliana_url = path.join(base_osiliana, path.basename(row.col_3))
+              //  f.properties.osiliana_url = base_osiliana + '/' + path.basename(row.col_3)
+                f.properties.osiliana_url = base_osiliana + '/' + path.basename(row.col_3)
                 f.properties.osiliana_desc = row.desc
                   .replace(/<a\b[^>]*>/ig,'<strong>')
                   .replace(/<\/a>/ig, '</strong>')
