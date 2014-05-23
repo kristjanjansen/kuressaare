@@ -59,6 +59,7 @@ function main() {
             console.log(f.properties.oldmap_url)
           }
         }
+        if (f.properties.desc) f.properties.desc = f.properties.desc.replace(/\n/g, '<br />')
         if (f.properties.osiliana_desc) f.properties.osiliana_desc = f.properties.osiliana_desc.replace(/\ufffd/g, 'a')
         $('#sidebar').html(Mustache.render($('#template_sidebar').html(), f.properties));
         //console.log(f)

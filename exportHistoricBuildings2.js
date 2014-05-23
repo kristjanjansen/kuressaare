@@ -8,6 +8,8 @@ fs.createReadStream('./data/in/geojson/ajaloolised_majad.geojson')
 
 var fs = require('fs');
 var each = require('each');
+var iconv = require('iconv-lite');
+
 var sqlite = require('spatialite');
 var db = new sqlite.Database('db.sqlite');
 
@@ -22,23 +24,32 @@ db.spatialite(function(err) {
 
 fs.readFile('./data/in/geojson/historic_buildings.geojson', function(err, data) {
   
-    var data = JSON.parse(data)
+    var data = JSON.parse(iconv.decode(data, 'latin1'))
     if (err) throw err;  
 
     each(data.features)
     .on('item', function(el, idx, next) {
+
+/*
         el.geometry.crs = {}
         el.geometry.crs.type = 'name'
         el.geometry.crs.properties = {}
         el.geometry.crs.properties.name = 'EPSG:4326'
         var geo = "GeomFromGeoJSON('" + JSON.stringify(el.geometry) + "')"
+        var desc = el.properties.selgitus ? el.properties.selgitus.replace(/\n/g,'<br />') : ''
+*/
+
+        var desc = el.properties.selgitus
+               
+//        console.log(desc)
+        
         insert.run(
             el.properties.id, 
             el.properties.aadress,
             el.properties.ehitusaast,
             el.properties.hoone_funk,
             el.properties.materjal,
-            el.properties.selgitus,
+            desc,
             el.properties.viide,
             el.properties.upd_stamp,
             el.properties.kasutaja_s

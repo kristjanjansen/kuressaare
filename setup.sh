@@ -14,7 +14,9 @@ ogr2ogr -t_srs EPSG:4326 out_borders.shp SHP_KATASTER.shp ;
 
 cd ../geojson
 
-ogr2ogr -t_srs EPSG:4326 -f "GeoJSON" historic_buildings.geojson ajaloolised_majad.geojson ;
+#ogr2ogr -t_srs EPSG:4326 -f "GeoJSON" historic_buildings.geojson ajaloolised_majad.geojson ;
+export SHAPE_ENCODING="ISO-8859-1";
+ogr2ogr -t_srs EPSG:4326 -f "GeoJSON" -lco ENCODING=UTF-8 historic_buildings.geojson ajaloolised_majad.geojson ;
 
 cd ../../..
 
