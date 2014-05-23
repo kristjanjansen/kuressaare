@@ -35,7 +35,7 @@ db.spatialite(function(err) {
       f.geometry = JSON.parse(row.the_geom)
       f.latlon = JSON.parse(row.latlon)
       
-      db.each("SELECT selgitus, ehitusaast FROM historic_buildings WHERE aadress = '" + f.properties.address + "' LIMIT 1", function(err, row) {
+      db.each("SELECT selgitus, ehitusaast FROM historic_buildings2 WHERE aadress = '" + f.properties.address + "' LIMIT 1", function(err, row) {
           if (err) console.log(err)
           if (row) { 
             f.properties.desc = row.selgitus

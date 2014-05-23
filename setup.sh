@@ -34,4 +34,4 @@ echo ".loadxl  ./data/out/xls/osiliana_map.xls osiliana_map" | spatialite db.sql
 
 node exportOsiliana.js
 
-#cat historic_buildings2.sql | spatialite db.sqlite
+cat historic_buildings2.sql | spatialite db.sqlite
