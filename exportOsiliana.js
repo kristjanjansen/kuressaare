@@ -17,6 +17,8 @@ db.spatialite(function(err) {
     db.each("SELECT * FROM osiliana_map", function(err, row) {
      var url = baseurl + '/' + path.basename(row.col_3)
     
+   //  console.log(url)
+    
      request({url: url}, function (e, r, b) {
        if (!e && r.statusCode == 200) {
          var $ = cheerio.load(b);

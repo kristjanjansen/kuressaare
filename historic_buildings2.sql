@@ -10,5 +10,5 @@ CREATE TABLE "historic_buildings2" (
 "viide" TEXT,
 "upd_stamp" TEXT,
 "kasutaja_s" TEXT);
-SELECT AddGeometryColumn('historic_buildings2', 'Geometry', -1, 'POLYGON', 'XY');
 COMMIT;
+SELECT AddGeometryColumn('historic_buildings2', 'Geometry', 4326, 'POLYGON', 'XY');
